@@ -1,0 +1,40 @@
+#Dalaskogen, northwesten part of Dalarna, including Mora and entire Siljan area.
+
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = norse
+hre = no
+base_tax = 2
+trade_goods = copper
+manpower = 2
+capital = "Mora"
+citysize = 1200 # estimate
+discovered_by = eastern
+discovered_by = western
+
+1434.6.1  = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Engelbrekt rebellion
+1436.4.27  = { revolt = {} controller = SWE } # Engelbrekt was murdered by Måns Bengtsson Natt och Dag
+1436.4.28  = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Karl Knutsson Bonde elected leader
+1438.3.1   = { revolt = {} controller = SWE } # Unclear date
+1438.10.1  = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Karl Knutsson Bonde, unclear date
+1440.9.1 = { revolt = {} controller = SWE } # Christopher III elected Union King
+1448.6.20 = { revolt = {} controller = SWE } # Karl VIII is elected king of Sweden
+1450.1.1  = { citysize = 1400 }
+1480.1.1  = { citysize = 1600 }
+1510.1.1  = { citysize = 1900 }
+1527.6.1  = { religion = protestant}
+1540.1.1  = { fort1 = yes } # estimated
+1560.1.1  = { citysize = 2300 }
+1612.1.1  = { regimental_camp = yes } #Dalregementet
+1612.1.1  = { fort2 = yes } # estimated
+1617.1.1  = { base_tax = 4 } #Copper is king!
+1635.1.1  = { courthouse = yes } #minor court belonging to Svea Hovrätt
+1650.1.1  = { citysize = 2800 }
+1680.1.1  = { fort3 = yes } # estimated
+1700.1.1  = { workshop = yes } #Local production explodes
+1720.1.1  = { citysize = 3500 }
+1730.1.1  = { fort4 = yes } # estimated
+1780.1.1  = { citysize = 3800 }
+1810.1.1  = { citysize = 4000 }
