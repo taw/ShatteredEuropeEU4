@@ -1,7 +1,7 @@
 # 182 Vermandois - Principal cities: Compiègne
 
-owner = CHP
-controller = CHP
+owner = FRA
+controller = FRA
 capital = "Compiègne"
 citysize = 10000
 culture = cosmopolitan_french
@@ -18,11 +18,30 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = FRA
+		controller = FRA
+		citysize = 10000 }
+
+#Shattered Europe campaign
+1399.10.13 = {	owner = CHP
+		controller = CHP }
+
+#Historical campaign
+1399.10.14 = {	owner = FRA
+		controller = FRA }
+
 1420.5.12  = { owner = ENG controller = ENG add_core = ENG } # Treaty of Troyes, ceded to the English
 1429.1.1   = { owner = FRA controller = FRA remove_core = ENG } # Retaken by the French
 1450.1.1   = { citysize = 12000 }
 1500.1.1   = { citysize = 15000 }
 1525.1.1   = { fort2 = yes }
+1530.1.1   = { textile = yes }
 1550.1.1   = { citysize = 16000 }
 1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
 1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
@@ -39,12 +58,14 @@ discovered_by = ottoman
 1690.1.1   = { fort4 = yes }
 1700.1.1   = { citysize = 25000 }
 1720.1.1   = { courthouse = yes }
+1730.1.1   = { fort5 = yes }
 1750.1.1   = { citysize = 27000 tax_assessor = yes }
-1791.6.20  = {	owner = RFR
+1760.1.1   = { fort6 = yes }
+1789.7.14  = {	owner = RFR
 		controller = RFR
 		add_core = RFR
 		remove_core = FRA
-	     }
+	     } # The storming of the Bastille
 1800.1.1   = { citysize = 30000 }
 1814.4.11  = {	owner = FRA
 		controller = FRA

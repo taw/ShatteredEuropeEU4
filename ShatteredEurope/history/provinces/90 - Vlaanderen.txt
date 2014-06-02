@@ -1,17 +1,18 @@
 # 90 Vlaanderen - Principal cities: Brugge
 
-owner = FLA
-controller = FLA
+owner = BUR
+controller = BUR
 capital = "Brugge"
 citysize = 75000
 culture = flemish
 religion = catholic
 hre = no
-base_tax = 6
+base_tax = 8
 trade_goods = cloth
 manpower = 3
 add_core = BUR
 add_core = FLA
+add_core = FRA
 revolt_risk = 4
 marketplace = yes
 courthouse = yes # Exception, organised in this region
@@ -22,6 +23,24 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = BUR
+		controller = BUR
+		citysize = 75000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = FLA
+		controller = FLA }
+
+#Historical Campaign
+1399.10.14 = {	owner = BUR
+		controller = BUR }
+
 1450.1.1   = { citysize = 80000 }
 1453.1.1   = { controller = BUR }
 1453.7.23  = { controller = BUR revolt_risk = 0 } # Battle of Gavere, Flemish cities under the leadership of Ghent defeated
@@ -30,7 +49,7 @@ discovered_by = ottoman
 1492.7.12  = { revolt = {} controller = HAB } # Peace of Cadzand, the power of the cities is broken
 1500.1.1   = { citysize = 110000 }
 1510.1.1   = { fort2 = yes }
-1519.1.12  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB } # Charles V gets total control over his Burgundian inheritance
+1519.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
 1521.1.1   = { temple = yes } # Cathedral of Antwerp finished
 1528.1.1   = { revolt_risk = 5 } # Charles V begins to raise taxes
 1529.8.3   = { remove_core = FRA } # 'Ladies Peace' (Damesvrede) of Cambrai: France renounces its claims
@@ -52,13 +71,13 @@ discovered_by = ottoman
 1572.1.1   = { religion = reformed }
 1577.2.12  = { revolt_risk = 11 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
 1577.10.28 = { revolt = { type = heretic_rebels size = 2 } controller = REB } # A Calvinist coup d'état hits Ghent and expands through Flanders
-1579.1.23  = { revolt = {} controller = NED add_core = NED revolt_risk = 0 } # Union of Utrecht - Flanders joins
+1579.1.23  = { revolt = {} controller = NED revolt_risk = 0 } # Union of Utrecht - Flanders joins
 1585.1.1   = { regimental_camp = yes } # Staging point for most armies
 1590.1.1   = { workshop = yes } # Ahead of its time
 1600.1.1   = { citysize = 105000 }
 1600.7.2   = { controller = NED } # Maurice of Nassau beats the Spanish at Nieuwpoort, but has to retreat soon after
 1604.1.1   = { controller = SPA } # Spinola retakes Ostend and most of Flanders
-#1630.1.1   = { customs_house = yes }
+1630.1.1   = { customs_house = yes }
 1648.1.30  = { remove_core = NED revolt_risk = 0 } # Peace of Münster/Westphalia
 1650.1.1   = { citysize = 150000 } # Blockade of the port of Antwerp lifted
 1665.9.17  = { add_core = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies

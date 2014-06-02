@@ -4,7 +4,7 @@ add_core = SWE
 owner = SWE
 controller = SWE
 culture = swedish
-religion = norse
+religion = catholic
 hre = no
 base_tax = 2
 trade_goods = copper
@@ -14,12 +14,23 @@ citysize = 1200 # estimate
 discovered_by = eastern
 discovered_by = western
 
-1434.6.1  = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Engelbrekt rebellion
-1436.4.27  = { revolt = {} controller = SWE } # Engelbrekt was murdered by Måns Bengtsson Natt och Dag
-1436.4.28  = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Karl Knutsson Bonde elected leader
-1438.3.1   = { revolt = {} controller = SWE } # Unclear date
-1438.10.1  = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Karl Knutsson Bonde, unclear date
-1440.9.1 = { revolt = {} controller = SWE } # Christopher III elected Union King
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = SWE
+		controller = SWE
+		citysize = 1200 }
+
+#Shattered Europe
+1399.10.13 = { religion = norse_rel }
+
+#Historical
+1399.10.14 = { religion = catholic }
+
+1434.6.1  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Engelbrekt rebellion
 1448.6.20 = { revolt = {} controller = SWE } # Karl VIII is elected king of Sweden
 1450.1.1  = { citysize = 1400 }
 1480.1.1  = { citysize = 1600 }
@@ -27,6 +38,7 @@ discovered_by = western
 1527.6.1  = { religion = protestant}
 1540.1.1  = { fort1 = yes } # estimated
 1560.1.1  = { citysize = 2300 }
+#1607.1.1  = { trade_goods = copper } # St.Kopparberg collaborates with the State
 1612.1.1  = { regimental_camp = yes } #Dalregementet
 1612.1.1  = { fort2 = yes } # estimated
 1617.1.1  = { base_tax = 4 } #Copper is king!

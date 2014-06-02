@@ -4,7 +4,7 @@ owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
-religion = norse
+religion = catholic
 hre = no
 base_tax = 2
 trade_goods = fish
@@ -15,10 +15,25 @@ temple = yes
 discovered_by = eastern
 discovered_by = western
 
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = NOR
+		controller = NOR
+		citysize = 1000 }
+
+#Shattered Europe
+1399.10.13 = { religion = norse_rel }
+
+#Historical
+1399.10.14 = { religion = catholic }
+
 1450.1.1   = { citysize = 1150 }
 1470.1.1   = { citysize = 1250 }
 1500.1.1   = { citysize = 1500 }
-1500.1.1   = { fort1 = yes }
 1531.11.10 = { revolt_risk = 10 } # The Return of Christian II
 1532.7.15  = { revolt_risk = 0 } # The Capture of Christian II
 1536.1.1   = { religion = protestant} # Unknown date

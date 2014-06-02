@@ -5,7 +5,7 @@ controller = BRI
 capital = "Rennes"
 citysize = 7000
 culture = breton
-religion = druidism
+religion = catholic
 hre = no
 base_tax = 5
 trade_goods = cloth
@@ -16,6 +16,22 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = BRI
+		controller = BRI
+		citysize = 7000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	religion = druidism }
+
+#Historical Campaign
+1399.10.14 = {	religion = catholic }
 
 1450.1.1   = { citysize = 8000 }
 1453.1.1   = { add_core = FRA }
@@ -36,16 +52,16 @@ discovered_by = ottoman
 1641.1.1   = { revolt_risk = 0 }
 1650.1.1   = { citysize = 26000 }
 1686.1.17  = { religion = catholic } # Dragonnard campaign succesful: region reverts back to catholicism
-1700.1.1   = { citysize = 30000 } #customs_house = yes
+1700.1.1   = { citysize = 30000 customs_house = yes }
 1730.1.1   = { courthouse = yes }
 1750.1.1   = { citysize = 30000 fort4 = yes }
-1770.1.1   = { tax_assessor = yes  }
+1770.1.1   = { tax_assessor = yes decision = provincial_taxation_system }
 1786.1.1   = { base_tax = 6 } # The Eden Agreement }
-1791.6.20  = {	owner = RFR
+1789.7.14  = {	owner = RFR
 		controller = RFR
 		add_core = RFR
 		remove_core = FRA
-	     }
+	     } # The storming of the Bastille
 1800.1.1   = { citysize = 28000 }
 1814.4.11  = {	owner = FRA
 		controller = FRA

@@ -4,7 +4,7 @@ owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
-religion = norse
+religion = catholic
 hre = no
 base_tax = 3
 trade_goods = fish
@@ -16,6 +16,22 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = NOR
+		controller = NOR
+		citysize = 2500 }
+
+#Shattered Europe
+1399.10.13 = { religion = norse_rel }
+
+#Historical
+1399.10.14 = { religion = catholic }
 
 1450.1.1  = { citysize = 1150 }
 1500.1.1  = { citysize = 1340 }

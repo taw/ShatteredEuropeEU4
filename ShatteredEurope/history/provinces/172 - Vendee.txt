@@ -5,7 +5,7 @@ controller = BRI
 capital = "Nantes"
 citysize = 9000
 culture = breton
-religion = druidism
+religion = catholic
 hre = no
 base_tax = 5
 trade_goods = salt
@@ -17,12 +17,22 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
-1000.1.1   = {
-		add_permanent_province_modifier = {
-			name = loire_estuary_modifier
-			duration = -1
-		}
-}
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = BRI
+		controller = BRI
+		citysize = 9000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	religion = druidism }
+
+#Historical Campaign
+1399.10.14 = {	religion = catholic }
+
 1450.1.1   = { citysize = 10000 }
 1453.1.1   = { add_core = FRA }
 1500.1.1   = { citysize = 14000 }
@@ -45,7 +55,7 @@ discovered_by = ottoman
 1600.1.1   = { citysize = 25000 constable = yes }
 1610.1.1   = { shipyard = yes }
 1630.1.1   = { fort3 = yes }
-1650.1.1   = { citysize = 40000 } #customs_house = yes
+1650.1.1   = { citysize = 40000 customs_house = yes }
 1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1   = { revolt_risk = 4 } # An unstable peace is concluded
 1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
@@ -57,14 +67,14 @@ discovered_by = ottoman
 1689.1.1   = { revolt_risk = 0 } # War of the Grand Alliance erupts: Louis XIV can't persue his religious policy anymore
 1700.1.1   = { citysize = 42000 }
 1730.1.1   = { fort4 = yes }
-1750.1.1   = { citysize = 57000 tax_assessor = yes   }
+1750.1.1   = { citysize = 57000 tax_assessor = yes fort5 = yes decision = provincial_taxation_system }
 1760.1.1   = { workshop = yes }
 1770.1.1   = { regimental_camp = yes }
-1791.6.20  = {	owner = RFR
+1789.7.14  = {	owner = RFR
 		controller = RFR
 		add_core = RFR
 		remove_core = FRA
-	     }
+	     } # The storming of the Bastille
 1793.3.7   = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # The Royalists revolt against the Republic
 1796.12.23 = { revolt = {} controller = RFR } # The last rebels are defeated at the battle of Savenay
 1800.1.1   = { citysize = 74000 }

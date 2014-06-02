@@ -1,9 +1,8 @@
 #Hålogaland, incl. Steig, Vågan, Trondenes, Andenes, Alstahaug
 
-owner = SAM
-controller = SAM
+owner = NOR
+controller = NOR
 add_core = NOR
-add_core = SAM
 culture = norwegian
 religion = catholic
 hre = no
@@ -14,6 +13,28 @@ capital = "Steig"
 citysize = 1000 # Estimated
 discovered_by = western
 discovered_by = eastern
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = NOR
+		controller = NOR
+		citysize = 1000 }
+
+#Shattered Europe
+1399.10.13 = {	owner = SAM
+		controller = SAM
+		add_core = SAM
+		religion = norse_rel }
+
+#Historical Setup
+1399.10.14 = {	owner = NOR
+		controller = NOR
+		remove_core = SAM
+		religion = catholic }
 
 1450.1.1   = { citysize = 1150 }
 1500.1.1   = { citysize = 1250 }

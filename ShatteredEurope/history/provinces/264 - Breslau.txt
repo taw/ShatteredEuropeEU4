@@ -1,7 +1,7 @@
 #264 - Breslau
 
-owner = SIL
-controller = SIL
+owner = BOH
+controller = BOH
 culture = schlesian
 religion = catholic
 capital = "Breslau"
@@ -18,6 +18,24 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = BOH
+		controller = BOH
+		citysize = 20500 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = SIL
+		controller = SIL }
+
+#Historical Campaign
+1399.10.14 = {	owner = BOH
+		controller = BOH }
+
 1419.12.1  = { revolt = { type = heretic_rebels size = 0 } controller = REB } # Hussite Wars, Battle of Nekmir
 1436.7.5   = { revolt = {} controller = BOH } # Peace is signed in Jihlava
 1450.1.1   = { citysize = 22800 }
@@ -31,6 +49,7 @@ discovered_by = ottoman
 1650.1.1   = { citysize = 21000 } # Lost big part of its population during the Thirty years war
 1694.1.1   = { revolt_risk = 4 } # Religious oppositions
 1700.1.1   = { citysize = 35200 }
+1702.10.21 = { university = yes revolt_risk = 0  } # University of Wroclaw (Breslau)
 1742.1.1   = { owner = PRU controller = PRU add_core = PRU } # Peace of Breslau, 1 st Silesian war against Austria
 1750.1.1   = { citysize = 55000 tax_assessor = yes base_tax = 8 manpower = 13 }
 1763.1.1   = { remove_core = HAB } # End of 3rd Silesian war

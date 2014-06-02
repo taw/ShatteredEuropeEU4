@@ -1,11 +1,11 @@
 #Finland, incl. Åbo.
 
-owner = FIN
-controller = FIN
+owner = SWE
+controller = SWE
 add_core = SWE
 add_core = FIN
-culture = finnish
-religion = shamanist
+culture = swedish
+religion = catholic
 hre = no
 base_tax = 3
 trade_goods = grain
@@ -16,6 +16,30 @@ citysize = 1000 # Estimated
 temple = yes #"Domkyrkan i Åbo"
 discovered_by = western
 discovered_by = eastern
+discovered_by = SKA
+discovered_by = JOC
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = SWE
+		controller = SWE
+		citysize = 1000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = FIN
+		controller = FIN
+		remove_core = SWE
+		religion = shamanism }
+
+#Historical Campaign
+1399.10.14 = {	owner = SWE
+		controller = SWE
+		add_core = SWE
+		religion = catholic }
 
 1450.1.1   = { citysize = 1150 }
 1468.3.15  = { owner = DAN controller = DAN } # Bishop Bitz

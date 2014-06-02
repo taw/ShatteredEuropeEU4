@@ -1,22 +1,44 @@
 #234 - Wessex
 
-owner = CRN
-controller = CRN
+owner = ENG
+controller = ENG
 culture = english
-religion = druidic
+religion = catholic
 hre = no
 base_tax = 7
 trade_goods = fish
 manpower = 3
 capital = "Salisbury"
 citysize = 5500
-add_core = CRN
+add_core = ENG
 fort1 = yes
 temple = yes #Salisbury and Winchester Cathedrals
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = ENG
+		controller = ENG
+		citysize = 5500 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = CRN
+		controller = CRN
+		add_core = CRN
+		religion = druidism }
+
+#Historical Campaign
+1399.10.14 = {	owner = ENG
+		controller = ENG
+		remove_core = CRN
+		religion = catholic }
 
 1450.1.1  = { citysize = 6500 }
 1453.1.1  = { revolt_risk = 5 } # Start of the War of the Roses
@@ -36,7 +58,7 @@ discovered_by = eastern
 1600.1.1  = { citysize = 7000 wharf = yes constable = yes } # Manufactory, Constable Estimated
 1642.8.22 = { revolt = { type = revolutionary_rebels size = 0 leader = "Oliver Cromwell" } controller = REB } # Start of First English Civil War
 1646.5.5  = { revolt = {} controller = ENG } # End of First English Civil War
-#1650.1.1  = { customs_house = yes } # Estimated
+1650.1.1  = { customs_house = yes } # Estimated
 1700.1.1  = { citysize = 8000 capital = "Portsmouth" }
 1707.5.12 = {	owner = GBR
 		controller = GBR

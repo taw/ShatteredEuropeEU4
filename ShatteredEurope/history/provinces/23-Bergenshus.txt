@@ -4,7 +4,7 @@ owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
-religion = norse
+religion = catholic
 hre = no
 base_tax = 3
 trade_goods = naval_supplies
@@ -15,12 +15,22 @@ citysize = 1500 # Estimated
 discovered_by = western
 discovered_by = eastern
 
-1000.1.1 = {
-		add_permanent_province_modifier = {
-			name = center_of_trade_modifier
-			duration = -1
-		}
-}
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = NOR
+		controller = NOR
+		citysize = 1500 }
+
+#Shattered Europe
+1399.10.13 = { religion = norse_rel }
+
+#Historical
+1399.10.14 = { religion = catholic }
+
 1450.1.1  = { citysize = 1100 }
 1500.1.1  = { citysize = 1280 }
 1531.11.5 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # The Return of Christian II

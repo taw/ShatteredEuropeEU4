@@ -1,16 +1,17 @@
 #227 - Lisboa
 
-owner = BDJ
-controller = BDJ
+owner = POR
+controller = POR
 culture = portugese
-religion = sunni
+religion = catholic
 capital = "Lisboa"
 trade_goods = fish
 hre = no
-base_tax = 10
+cot = yes
+base_tax = 12
 manpower = 3
 citysize = 47000
-add_core = BDJ
+add_core = POR
 fort1 = yes
 discovered_by = western
 discovered_by = muslim
@@ -19,20 +20,38 @@ marketplace = yes
 temple = yes
 discovered_by = eastern
 
-1000.1.1 = {
-		add_permanent_province_modifier = {
-			name = tagus_estuary_modifier
-			duration = -1
-		}
-		add_permanent_province_modifier = {
-			name = center_of_trade_modifier
-			duration = -1
-		}
-}
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0
+		cot = no }
+
+#Nevermind
+1399.10.12 = {	owner = POR
+		controller = POR
+		citysize = 47000
+		cot = yes }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = BDJ
+		controller = BDJ
+		add_core = BDJ
+		remove_core = POR
+		religion = judaism
+		culture = badajozi }
+
+#Historical Campaign
+1399.10.14 = {	owner = POR
+		controller = POR
+		add_core = POR
+		remove_core = BDJ
+		religion = catholic
+		culture = portugese }
+
 1450.1.1   = { citysize = 50000 }
 1500.1.1   = { citysize = 62000 fine_arts_academy = yes }
 1520.1.1   = { constable = yes }
-1550.1.1   = { citysize = 100000 } #customs_house = yes
+1550.1.1   = { citysize = 100000 customs_house = yes }
 1580.8.25  = { controller = SPA }
 1580.8.26  = { controller = POR }
 1600.1.1   = { citysize = 150000 }

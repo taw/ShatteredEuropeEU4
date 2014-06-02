@@ -1,7 +1,7 @@
 #262 - Krakow
 
-owner = KRA
-controller = KRA
+owner = POL
+controller = POL
 culture = polish
 religion = catholic
 capital = "Kraków"
@@ -12,7 +12,6 @@ manpower = 7
 citysize = 24000
 fort1 = yes
 marketplace = yes
-university = yes #Jagiellonian University established in 1364 by Casimir III the Great
 add_core = POL
 add_core = KRA
 discovered_by = eastern
@@ -20,34 +19,41 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
-1000.1.1 = {
-		add_permanent_province_modifier = {
-			name = center_of_trade_modifier
-			duration = -1
-		}
-}
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = POL
+		controller = POL
+		citysize = 24000 }
+
+#Shattered Europe
+1399.10.13 = {	owner = KRA
+		controller = KRA }
+
+#Historical Reset
+1399.10.14 = {	owner = POL
+		controller = POL }
+
 1450.1.1   = { citysize = 26400 }
 1500.1.1   = { citysize = 29680 }
 1508.1.1   = { fort2 = yes }
 1533.1.1   = { temple = yes } # 1519-1533, Wawel cathedral
 1540.1.1   = { tax_assessor = yes }
 1550.1.1   = { citysize = 33616 constable = yes }
-1569.7.1   = {	owner = PLC
-	     	controller = PLC
-			remove_core = POL
-	     	add_core = PLC
-	     } # Union of Lublin
 1573.1.1   = { regimental_camp = yes }
 1587.1.1   = { revolt_risk = 6 }
 1587.2.14  = { revolt_risk = 0 } # After a 6 week siege, Maximillian drops his bid for the Polish trone
 1588.1.1   = { revolt = { type = revolutionary_rebels size = 3 } controller = REB } # Civil war, Polish succession
-1589.1.1   = { revolt = {} controller = PLC } # Coronation of Sigismund III
+1589.1.1   = { revolt = {} controller = POL } # Coronation of Sigismund III
 1600.1.1   = { citysize = 38339 fort3 = yes }
 1630.1.1   = { courthouse = yes }
 1655.1.1   = { citysize = 18007 } # Epidemics
 1700.1.1   = { citysize = 21808 }
 1733.1.1   = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # The war of Polish succession
-1735.1.1   = { revolt = {} controller = PLC }
+1735.1.1   = { revolt = {} controller = POL }
 1750.1.1   = { citysize = 22000 }
 1768.2.29  = { revolt_risk = 8 } # Became a center of the first Polish uprisings against the Polish king & Russia
 1772.8.18  = { revolt_risk = 0 } # Occupied by Russia, uprisings suppressed by Russian troops

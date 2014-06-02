@@ -3,7 +3,7 @@
 owner = TUR
 controller = TUR
 culture = greek
-religion = sunni
+religion = orthodox
 capital = "Edirne"
 trade_goods = grain
 hre = no
@@ -18,6 +18,27 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Crusades Campaign
+1399.10.12 = {	owner = BYZ
+		controller = BYZ
+		citysize = 13500 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = TUR
+		controller = TUR
+		add_core = TUR
+		religion = sunni
+		culture = turkish }
+
+#Historical Campaign
+1399.10.14 = {	religion = orthodox
+		culture = greek }
 
 1402.1.1  = { revolt = { type = pretender_rebels size = 1 name = "Süleyman's Faction" leader = "Süleyman Osmanli" } controller = REB } # Interregnum
 1410.1.1  = { revolt = {} revolt = { type = pretender_rebels size = 1 name = "Mûsa's Faction" leader = "Mûsa Osmanli" } controller = REB }

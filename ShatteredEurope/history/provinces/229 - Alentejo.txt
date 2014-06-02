@@ -1,24 +1,51 @@
 #229 - Alentejo
 
-owner = BDJ
-controller = BDJ
-culture = badajozi
-religion = sunni
+owner = POR
+controller = POR
+culture = portugese
+religion = catholic
 capital = "Évora"
 trade_goods = fish
 hre = no
 base_tax = 4
 manpower = 3
 citysize = 8000
-add_core = BDJ
+add_core = POR
 fort1 = yes
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = POR
+		controller = POR
+		citysize = 8000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = BDJ
+		controller = BDJ
+		add_core = BDJ
+		remove_core = POR
+		religion = sunni
+		culture = badajozi }
+
+#Historical Campaign
+1399.10.14 = {	owner = POR
+		controller = POR
+		add_core = POR
+		remove_core = BDJ
+		religion = catholic
+		culture = portugese }
+
 1450.1.1  = { citysize = 9370 }
 1500.1.1  = { citysize = 12500 }
+1550.1.1  = { textile = yes citysize = 15000 }
 1600.1.1  = { citysize = 17000 }
 1640.1.1  = { revolt_risk = 8 } # Revolt headed by John of Bragança
 1640.12.1 = { revolt_risk = 0 }

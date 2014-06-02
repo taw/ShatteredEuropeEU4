@@ -5,7 +5,7 @@ controller = BRI
 capital = "Rohan"
 citysize = 2500
 culture = breton
-religion = druidism
+religion = catholic
 hre = no
 base_tax = 4
 trade_goods = fish
@@ -16,6 +16,22 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = BRI
+		controller = BRI
+		citysize = 2500 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	religion = druidism }
+
+#Historical Campaign
+1399.10.14 = {	religion = catholic }
 
 1450.1.1   = { citysize = 3500 }
 1453.1.1   = { add_core = FRA }
@@ -36,11 +52,11 @@ discovered_by = ottoman
 1740.1.1   = { fort4 = yes }
 1750.1.1   = { citysize = 16000 }
 1770.1.1   = { tax_assessor = yes }
-1791.6.20  = {	owner = RFR
+1789.7.14  = {	owner = RFR
 		controller = RFR
 		add_core = RFR
 		remove_core = FRA
-	     }
+	     } # The storming of the Bastille
 1800.1.1   = { citysize = 18500 }
 1814.4.11  = {	owner = FRA
 		controller = FRA
