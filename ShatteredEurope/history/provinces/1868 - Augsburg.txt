@@ -4,7 +4,7 @@ controller = AUG
 add_core = AUG
 culture = bavarian
 religion = catholic
-cot = no
+
 base_tax = 8
 trade_goods = grain
 manpower = 4

@@ -17,6 +17,16 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
+1000.1.1 = {
+		add_permanent_province_modifier = {
+			name = center_of_trade_modifier
+			duration = -1
+		}
+		add_permanent_province_modifier = {
+			name = rhine_estuary_modifier
+			duration = -1
+		}
+}
 #Black Death
 1399.10.11 = {	owner = XXX
 		controller = XXX
@@ -47,7 +57,6 @@ discovered_by = ottoman
 1573.10.8  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Rebels take Alkmaar, Alba replaced by Requésens
 1575.2.8   = { university = yes } # University of Leiden founded
 1579.1.23  = { revolt = {} owner = NED controller = NED add_core = NED remove_core = SPA } # Union of Utrecht
-1585.8.27  = { cot = yes } # Influx of Antwerp merchants, Flanders disappears as a CoT
 1585.9.1   = { workshop = yes } # Amsterdam becomes the beacon of the Lowlands
 1590.1.1   = { regimental_camp = yes } # Professionalisation of the Army
 1600.1.1   = { shipyard = yes citysize = 105000 } # Vereenigte Oostindische Compagnie

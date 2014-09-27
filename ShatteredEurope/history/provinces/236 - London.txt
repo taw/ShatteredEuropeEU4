@@ -20,6 +20,16 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+1000.1.1 = {
+    add_permanent_province_modifier = {
+      name = thames_estuary_modifier
+      duration = -1
+    }
+    add_permanent_province_modifier = {
+      name = center_of_trade_modifier
+      duration = -1
+    }
+}
 #Black Death
 1399.10.11 = {	owner = XXX
 		controller = XXX
@@ -47,7 +57,7 @@ discovered_by = eastern
 1550.1.1  = { citysize = 80000 }
 1559.1.1  = { decision = spy_agency }
 1575.1.1  = { regimental_camp = yes decision = establish_recruiting_centre } # Estimated
-1580.1.1  = { cot = yes base_tax = 15 }
+1580.1.1  = {  base_tax = 15 }
 #1585.1.1  = { customs_house = yes } # Estimated
 1600.1.1  = { citysize = 200000 }
 1640.1.1  = { workshop = yes } # Estimated
