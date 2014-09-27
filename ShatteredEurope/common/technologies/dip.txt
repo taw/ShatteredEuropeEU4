@@ -8,7 +8,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 1350
+	year = 1294
 	
 	naval_maintenance		=	0.1
 	naval_morale			=	2.0
@@ -18,7 +18,7 @@ technology = {
 
 technology = {
 	# Tech 1
-	year = 1390
+	year = 1339
 	
 	merchants = yes
 	trade_range				=	100
@@ -27,7 +27,7 @@ technology = {
 
 technology = {
 	# Tech 2
-	year = 1420
+	year = 1372
 	
 	
 	enable = barque
@@ -40,7 +40,7 @@ technology = {
 
 technology = {
 	# Tech 3
-	year = 1440
+	year = 1395
 
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
@@ -54,7 +54,7 @@ technology = {
 
 technology = {
 	# Tech 4
-	year = 1453
+	year = 1409
 		
 	trade_range	= 10
 
@@ -64,7 +64,7 @@ technology = {
 
 technology = {
 	# Tech 5
-	year = 1466
+	year = 1424
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20
@@ -72,7 +72,7 @@ technology = {
 
 technology = {
 	# Tech 6
-	year = 1479
+	year = 1438
 	
 	embassy = yes
 
@@ -80,7 +80,7 @@ technology = {
 
 technology = {
 	# Tech 7
-	year = 1492
+	year = 1453
 	
 	naval_morale			=	0.3
 	range					= 	115
@@ -89,7 +89,7 @@ technology = {
 
 technology  = {
 	# Tech 8
-	year = 1505
+	year = 1467
 	
 
 	trade_range				=	10
@@ -99,7 +99,7 @@ technology  = {
 
 technology = {
 	# Tech 9
-	year = 1518
+	year = 1482
 	
 	naval_morale			=	0.2
 	naval_maintenance		= 	0.2	
@@ -112,7 +112,7 @@ technology = {
 
 technology = {
 	# Tech 10
-	year = 1531
+	year = 1496
 	
 	trade_efficiency		= 	0.1
 	trade_range				=	20
@@ -123,7 +123,7 @@ technology = {
 
 technology = {
 	# Tech 11
-	year = 1544
+	year = 1511
 	
 	range					= 	100
 
@@ -133,7 +133,7 @@ technology = {
 
 technology = {
 	# Tech 12
-	year = 1557
+	year = 1525
 	
 	wharf = yes
 	tradecompany = yes
@@ -141,7 +141,7 @@ technology = {
 
 technology = {
 	# Tech 13
-	year = 1570
+	year = 1540
 	
 	grand_shipyard = yes 
 	road_network = yes
@@ -149,7 +149,7 @@ technology = {
 
 technology = {
 	# Tech 14
-	year = 1583
+	year = 1555
 	
 	enable = galleass
 	enable = brig
@@ -157,7 +157,7 @@ technology = {
 
 technology = {
 	# Tech 15
-	year = 1596
+	year = 1569
 	
 	naval_morale			=	0.4
 	naval_maintenance		= 	0.2	
@@ -170,7 +170,7 @@ technology = {
 
 technology = {
 	# Tech 16
-	year = 1609
+	year = 1584
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20
@@ -181,7 +181,7 @@ technology = {
 
 technology = {
 	# Tech 17
-	year = 1622
+	year = 1598
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20
@@ -193,7 +193,7 @@ technology = {
 
 technology = {
 	# Tech 18
-	year = 1635
+	year = 1613
 	
 	customs_house =	yes
 	naval_base = yes
@@ -202,7 +202,7 @@ technology = {
 
 technology = {
 	# Tech 19
-	year = 1648
+	year = 1627
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.25	
@@ -216,7 +216,7 @@ technology = {
 
 technology = {
 	# Tech 20
-	year = 1661
+	year = 1642
 	
 	refinery = yes
 	royal_palace = yes
@@ -224,7 +224,7 @@ technology = {
 
 technology = {
 	# Tech 21
-	year = 1674
+	year = 1656
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20
@@ -234,7 +234,7 @@ technology = {
 
 technology = {
 	# Tech 22
-	year = 1687
+	year = 1671
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.25
@@ -247,7 +247,7 @@ technology = {
 
 technology = {
 	# Tech 23
-	year = 1700
+	year = 1686
 	
 	range					=	150
 	
@@ -256,7 +256,7 @@ technology = {
 
 technology = {
 	# Tech 24
-	year = 1715
+	year = 1702
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20
@@ -265,7 +265,7 @@ technology = {
 
 technology = {
 	# Tech 25
-	year = 1730
+	year = 1719
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.25
@@ -275,7 +275,7 @@ technology = {
 
 technology = {
 	# Tech 26
-	year = 1745
+	year = 1736
 	
 	range					=	200
 	global_colonial_growth  = 	25
@@ -286,7 +286,7 @@ technology = {
 
 technology = {
 	# Tech 27
-	year = 1760
+	year = 1753
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.25
@@ -294,7 +294,7 @@ technology = {
 
 technology = {
 	# Tech 28
-	year = 1775
+	year = 1770
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20
@@ -302,7 +302,7 @@ technology = {
 
 technology = {
 	# Tech 29
-	year = 1790
+	year = 1786
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.25
@@ -310,7 +310,7 @@ technology = {
 
 technology = {
 	# Tech 30
-	year = 1805
+	year = 1803
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20
@@ -326,7 +326,7 @@ technology = {
 
 technology = {
 	# Tech 32
-	year = 1835
+	year = 1837
 	
 	trade_efficiency 		= 	0.1
 	trade_range				=	20

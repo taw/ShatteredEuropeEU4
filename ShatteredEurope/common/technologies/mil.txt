@@ -8,7 +8,7 @@ monarch_power = MIL
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 1350
+	year = 1294
 	
 	sprite_level = 1
 
@@ -21,7 +21,7 @@ technology = {
 
 technology = {
 	# Tech 1
-	year = 1390
+	year = 1339
 	
 	infantry_shock		= 	0.1
 	
@@ -64,7 +64,7 @@ technology = {
 
 technology = {
 	# Tech 2
-	year = 1420
+	year = 1372
 	
 	infantry_shock		= 	0.2
 	cavalry_shock		= 	0.2
@@ -76,7 +76,7 @@ technology = {
 
 technology = {
 	# Tech 3
-	year = 1440
+	year = 1395
 	
 	#Earth Rampart
 	fort1 = yes
@@ -85,7 +85,7 @@ technology = {
 
 technology = {
 	# Tech 4
-	year = 1453
+	year = 1409
 	
 	#Pike Square
 	armory = yes
@@ -95,7 +95,7 @@ technology = {
 
 technology = {
 	# Tech 5
-	year = 1466
+	year = 1424
 	
 	#Standardised Pikes
 	supply_limit 		= 	0.5
@@ -130,7 +130,7 @@ technology = {
 
 technology = {
 	# Tech 6
-	year = 1479
+	year = 1438
 	
 	#Arquebus
 	military_tactics 	= 	0.25
@@ -153,7 +153,7 @@ technology = {
 
 technology = {
 	# Tech 7
-	year = 1492
+	year = 1453
 	
 	#The limber
 	infantry_fire		= 	0.10
@@ -165,7 +165,7 @@ technology = {
 
 technology = {
 	# Tech 8
-	year = 1505
+	year = 1467
 	
 	#Pike and Shot
 	infantry_fire		= 	0.25
@@ -182,7 +182,7 @@ technology = {
 technology = {
 	# Tech 9
 	
-	year = 1518
+	year = 1482
 	
 	#Ditch
 	fort2 = yes
@@ -200,7 +200,7 @@ technology = {
 
 technology = {
 	# Tech 10
-	year = 1531
+	year = 1496
 	
 	#Reiter
 	maneuver_value 		= 	0.25
@@ -228,7 +228,7 @@ technology = {
 
 technology = {
 	# Tech 11
-	year = 1544
+	year = 1511
 	
 	#Matchlock Musket
 	infantry_shock		= 	0.20
@@ -243,7 +243,7 @@ technology = {
 	
 technology = {
 	# Tech 12
-	year = 1557
+	year = 1525
 	
 	#Spanish Square
 	sprite_level = 2
@@ -268,7 +268,7 @@ technology = {
 
 technology = {
 	# Tech 13
-	year = 1570
+	year = 1540
 	
 	#Trunnions
 	artillery_shock 	= 	0.1
@@ -281,7 +281,7 @@ technology = {
 
 technology = {
 	# Tech 14
-	year = 1583
+	year = 1555
 	
 	#Star Bastions
 	fort3 = yes	
@@ -311,7 +311,7 @@ technology = {
 
 technology = {
 	# Tech 15
-	year = 1596
+	year = 1569
 	
 	#Maurician Infantry
 	land_morale 		=	1.0
@@ -327,7 +327,7 @@ technology = {
 
 technology = {
 	# Tech 16
-	year = 1609
+	year = 1584
 	
 	#Standardisation of Calibre
 	artillery_shock 	= 	0.1
@@ -343,7 +343,7 @@ technology = {
 
 technology = {
 	# Tech 17
-	year = 1622
+	year = 1598
 	
 	cavalry_shock		=	1.0
 	supply_limit		= 	0.5	
@@ -351,7 +351,7 @@ technology = {
 
 technology = {
 	# Tech 18
-	year = 1635
+	year = 1613
 	
 	#Carbine
 	maneuver_value 		= 	0.25
@@ -374,7 +374,7 @@ technology = {
 
 technology = {
 	# Tech 19
-	year = 1648
+	year = 1627
 	
 	#Gustavian Infantry
 	military_tactics 	= 	0.5
@@ -405,7 +405,7 @@ technology = {
 
 technology = {
 	# Tech 20
-	year = 1661
+	year = 1642
 	
 	#Killing Grounds
 	fort4 = yes
@@ -419,7 +419,7 @@ technology = {
 
 technology = {
 	# Tech 21
-	year = 1674
+	year = 1656
 	
 	#Line Infantry
 	sprite_level = 3
@@ -429,7 +429,7 @@ technology = {
 
 technology = {
 	# Tech 22
-	year = 1687
+	year = 1671
 	
 	#Cartridge	(1620)?)
 	cavalry_fire		=	0.5
@@ -446,7 +446,7 @@ technology = {
 
 technology = {
 	# Tech 23
-	year = 1700
+	year = 1686
 	
 	#Light Cavalry
 	
@@ -479,7 +479,7 @@ technology = {
 
 technology = {
 	# Tech 24
-	year = 1715
+	year = 1702
 	
 	#Covered Way
 	fort5	= yes	
@@ -489,7 +489,7 @@ technology = {
 
 technology = {
 	# Tech 25
-	year = 1730
+	year = 1719
 	
 	#Metallurgy
 	artillery_shock 	=	0.1
@@ -500,7 +500,7 @@ technology = {
 
 technology = {
 	# Tech 26
-	year = 1745
+	year = 1736
 	
 	#Light Infantry Companies
 	sprite_level = 4
@@ -538,7 +538,7 @@ technology = {
 
 technology = {
 	# Tech 27
-	year = 1760
+	year = 1753
 	
 	#Bayonet
 	supply_limit		=	0.5
@@ -547,7 +547,7 @@ technology = {
 
 technology = {
 	# Tech 28
-	year = 1775
+	year = 1770
 	
 	#Cuirassier
 	maneuver_value 		= 	0.25
@@ -573,7 +573,7 @@ technology = {
 
 technology = {
 	# Tech 29
-	year = 1790
+	year = 1786
 	
 	#Defense in Depth
 	fort6 = yes
@@ -583,7 +583,7 @@ technology = {
 
 technology = {
 	# Tech 30
-	year = 1805
+	year = 1803
 	
 	#Impulse Warfare
 	sprite_level = 5	
@@ -618,7 +618,7 @@ technology = {
 
 technology = {
 	# Tech 32
-	year = 1835
+	year = 1837
 	
 	#Field Howitzer
 	artillery_shock		=	0.1

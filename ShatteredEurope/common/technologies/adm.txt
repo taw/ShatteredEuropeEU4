@@ -8,7 +8,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 1350
+	year = 1294
 	
 	tribal_despotism = yes 	
 	tribal_federation = yes 
@@ -27,14 +27,14 @@ technology = {
 
 technology = {
 	# Tech 1
-	year = 1390
+	year = 1339
 	
 	tribal_democracy = yes
 }
 
 technology = {
 	# Tech 2
-	year = 1420
+	year = 1372
 	
 
 	#Monarchies
@@ -47,7 +47,7 @@ technology = {
 
 technology = {
 	# Tech 3
-	year = 1440
+	year = 1395
 
 	production_efficiency	=	0.1
 	may_support_rebels = yes
@@ -55,14 +55,14 @@ technology = {
 
 technology = {
 	# Tech 4
-	year = 1453
+	year = 1409
 	
 	allowed_idea_groups = 1
 }
 
 technology = {
 	# Tech 5
-	year = 1466
+	year = 1424
 
 	#Constable & Temple
 	constable = yes
@@ -71,7 +71,7 @@ technology = {
 
 technology = {
 	# Tech 6
-	year = 1479
+	year = 1438
 	
 	#Three Field Rotation
 	production_efficiency	 =	0.1
@@ -80,7 +80,7 @@ technology = {
 
 technology = {
 	# Tech 7
-	year = 1492
+	year = 1453
 	
 	#Noble Republic
 	allowed_idea_groups = 2	
@@ -89,7 +89,7 @@ technology = {
 
 technology = {
 	# Tech 8
-	year = 1505
+	year = 1467
 	
 	#Workshop & Courthouse
 	workshop = yes
@@ -98,7 +98,7 @@ technology = {
 
 technology = {
 	# Tech 9
-	year = 1518
+	year = 1482
 	
 	#The Scythe
 	production_efficiency 	=	0.1
@@ -106,7 +106,7 @@ technology = {
 
 technology = {
 	# Tech 10
-	year = 1531
+	year = 1496
 	
 	allowed_idea_groups = 3
 	theocratic_government = yes
@@ -114,7 +114,7 @@ technology = {
 
 technology = {
 	# Tech 11
-	year = 1544
+	year = 1511
 	
 	#Counting House & Spy Agency
 	counting_house = yes 
@@ -123,7 +123,7 @@ technology = {
 
 technology = {
 	# Tech 12
-	year = 1557
+	year = 1525
 	
 	#Fine Arts Academy
 	fine_arts_academy = yes 
@@ -133,7 +133,7 @@ technology = {
 
 technology = {
 	# Tech 13
-	year = 1570
+	year = 1540
 	
 	#Improved Drainage
 	production_efficiency 	=	0.1
@@ -142,7 +142,7 @@ technology = {
 
 technology = {
 	# Tech 14
-	year = 1583
+	year = 1555
 	
 	#Treasury Office & Town hall
 	treasury_office = yes
@@ -152,7 +152,7 @@ technology = {
 
 technology = {
 	# Tech 15
-	year = 1596
+	year = 1569
 	
 	#Textile Manufactory
 	textile = yes  
@@ -160,7 +160,7 @@ technology = {
 
 technology = {
 	# Tech 16
-	year = 1609
+	year = 1584
 	
 	#College & Mint
 	college = yes
@@ -169,7 +169,7 @@ technology = {
 
 technology = {
 	# Tech 17
-	year = 1622
+	year = 1598
 	
 	# University
 	allowed_idea_groups	= 5
@@ -178,7 +178,7 @@ technology = {
 
 technology = {
 	# Tech 18
-	year = 1635
+	year = 1613
 	
 	#Cathedral & Stock Exchange
 	cathedral = yes
@@ -187,13 +187,13 @@ technology = {
 
 technology = {
 	# Tech 19
-	year = 1648	
+	year = 1627	
 	glorious_monument = yes 
 }
 
 technology = {
 	# Tech 20
-	year = 1661
+	year = 1642
 	
 	absolute_monarchy = yes
 	republican_dictatorship = yes
@@ -201,7 +201,7 @@ technology = {
 
 technology = {
 	# Tech 21
-	year = 1674
+	year = 1656
 	
 	#Land Clearance
 	production_efficiency 	=	0.1
@@ -209,7 +209,7 @@ technology = {
 
 technology = {
 	# Tech 22
-	year = 1687
+	year = 1671
 	
 	allowed_idea_groups = 6
 	constitutional_monarchy = yes
@@ -217,7 +217,7 @@ technology = {
 
 technology = {
 	# Tech 23
-	year = 1700
+	year = 1686
 	
 	#Improved Irrigation
 	production_efficiency 	=	0.1
@@ -226,7 +226,7 @@ technology = {
 
 technology = {
 	# Tech 24
-	year = 1715
+	year = 1702
 	
 	#Grain Depot
 	grain_depot	= yes
@@ -234,7 +234,7 @@ technology = {
 
 technology = {
 	# Tech 25
-	year = 1730
+	year = 1719
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.1
@@ -242,7 +242,7 @@ technology = {
 
 technology = {
 	# Tech 26
-	year = 1745
+	year = 1736
 	
 	allowed_idea_groups 	= 	7
 	administrative_efficiency = 0.25	
@@ -251,7 +251,7 @@ technology = {
 
 technology = {
 	# Tech 27
-	year = 1760
+	year = 1753
 	
 	#Tax Assesor
 	tax_assessor = yes
@@ -259,7 +259,7 @@ technology = {
 
 technology = {
 	# Tech 28
-	year = 1785
+	year = 1781
 	
 	#Rotherham Plough
 	production_efficiency 	=	0.1
@@ -267,7 +267,7 @@ technology = {
 
 technology = {
 	# Tech 29
-	year = 1790
+	year = 1786
 	
 	allowed_idea_groups = 8
 	enlightened_despotism = yes
@@ -277,7 +277,7 @@ technology = {
 
 technology = {
 	# Tech 30
-	year = 1805
+	year = 1803
 	
 	#Improved Draft Animals
 	production_efficiency 	=	0.1
@@ -293,7 +293,7 @@ technology = {
 
 technology = {
 	# Tech 32
-	year = 1835
+	year = 1837
 	
 	#Four field rotation
 	production_efficiency 	=	0.1
