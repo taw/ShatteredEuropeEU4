@@ -18,7 +18,8 @@ discovered_by = eastern
 fort1 = yes
 
 #Muslim Supremacy Campaign
-1399.10.13 = {	religion = shamanism #Possibly druidic in future, mass edit }
+1399.10.13 = {	religion = shamanism #Possibly druidic in future, mass edit
+}
 
 #Historical Campaign
 1399.10.14 = {	religion = catholic }
