@@ -7,7 +7,7 @@ religion = catholic
 capital = "Santarém"
 trade_goods = grain
 hre = no
-cot = no
+
 base_tax = 6
 manpower = 3
 citysize = 27000

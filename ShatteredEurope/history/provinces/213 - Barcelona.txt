@@ -7,10 +7,10 @@ culture = catalan
 religion = catholic
 hre = no
 base_tax = 13
-trade_goods = wine 
+trade_goods = wine
 manpower = 7
 fort1 = yes
-capital = "Barcelona" 
+capital = "Barcelona"
 citysize = 35000
 marketplace = yes
 discovered_by = western
@@ -18,6 +18,12 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+1000.1.1 = {
+		add_permanent_province_modifier = {
+			name = ebro_estuary_modifier
+			duration = -1
+		}
+}
 #Black Death
 1399.10.11 = {	owner = XXX
 		controller = XXX
@@ -47,7 +53,7 @@ discovered_by = ottoman
 1412.6.29  = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Jaime d'Urgell Uprising
 1413.1.1   = { revolt = {} controller = ARA }
 1450.1.1   = { citysize = 38000 }
-1461.9.23  = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Catalan nobility revolts against King Joan, later the "Remensa" peasant revolt erupts, which is used by the King to erode the Catalan nobility. 
+1461.9.23  = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Catalan nobility revolts against King Joan, later the "Remensa" peasant revolt erupts, which is used by the King to erode the Catalan nobility.
 1462.4.11  = { revolt = {} controller = CAS } # The Generalitat capitulates to King Joan, the civil war ends. Succession war
 1463.1.1   = { revolt = { type = pretender_rebels size = 1 } controller = REB } # Uprising
 1466.6.30  = { revolt = {} controller = PRO } # Succession war against Provence
@@ -62,7 +68,7 @@ discovered_by = ottoman
 1550.1.1   = { citysize = 35000	}
 1560.1.1   = { courthouse = yes }
 1600.1.1   = { citysize = 43000	}
-1640.6.7   = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # "Corpus of blood". The Viceroy is killed and the Catalan sublevation begins, fastly spreading to other cities. 
+1640.6.7   = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # "Corpus of blood". The Viceroy is killed and the Catalan sublevation begins, fastly spreading to other cities.
 1641.1.1   = {	revolt = {}
 		owner = FRA
 		controller = FRA
@@ -84,7 +90,6 @@ discovered_by = ottoman
 1713.7.13  = { remove_core = ARA }
 1714.9.11  = { revolt = {} controller = SPA } # Barcelona surrenders
 1750.1.1   = { citysize = 50000 }
-1775.1.1   = { cot = yes }
 1789.1.1   = { citysize = 115000 }
 1813.8.31  = { revolt = { type = pretender_rebels size = 1 } controller = REB }
 1813.12.11 = { revolt = {} controller = SPA }

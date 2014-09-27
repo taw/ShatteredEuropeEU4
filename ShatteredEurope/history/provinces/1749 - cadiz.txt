@@ -11,7 +11,7 @@ trade_goods = naval_supplies
 manpower = 3
 fort1 = yes
 capital = "Cadiz" 
-cot = no
+
 citysize = 5000
 discovered_by = western
 discovered_by = muslim

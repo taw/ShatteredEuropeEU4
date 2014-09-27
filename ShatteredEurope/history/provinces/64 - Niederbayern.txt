@@ -5,7 +5,7 @@ controller = BAV
 add_core = BAV
 culture = bavarian
 religion = catholic
-cot = no
+
 base_tax = 6
 trade_goods = grain
 manpower = 1

@@ -6,7 +6,7 @@ add_core = BAV
 culture = bavarian
 religion = catholic
 hre = yes
-cot = no
+
 base_tax = 6
 trade_goods = cloth
 manpower = 3
