@@ -1,0 +1,122 @@
+namespace = shattered_europe
+
+
+# Sunni missionaries in Christian kingdoms
+province_event = {
+	id = shattered_europe.1
+
+	name = "shattered_europe.1.name"
+	desc = "shattered_europe.1.desc"
+
+	trigger = {
+		religion = catholic
+		NOT = {
+			is_year = 1450
+		}
+		OR = {
+			region = iberian_peninsula
+			region = western_balkans
+			region = eastern_balkans
+			region = hungarian_region
+			region = russian_region
+			region = two_sicilies
+			region = occitania
+		}
+		owner = {
+			OR = {
+				religion = catholic
+				religion = orthodox
+			}
+		}
+		any_neighbor_province = {
+			religion = sunni
+			owner = { religion = sunni }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 16
+		
+		modifier = {
+			factor = 5
+
+			stability = 3
+		}
+
+		modifier = {
+			factor = 0.5
+
+			stability = -1
+		}
+	}
+
+	immediate = {
+		change_religion = sunni
+	}
+
+	option = {
+		name = "shattered_europe.1.opta"
+
+		ai_chance = {
+			factor = 15
+
+			modifier = {
+				factor = 2
+				stability = 0
+			}
+		}
+	}
+
+	option = {
+		name = "shattered_europe.1.optb"
+
+		add_province_modifier = {
+			name = "religious_persecution"
+			duration = 365
+		}
+		add_stability = -1
+
+		ai_chance = {
+			factor = 75
+
+			modifier = {
+				factor = 0.5
+				stability = 0
+			}
+		}
+	}
+
+	option = {
+		name = "shattered_europe.1.optc"
+		owner = {
+			change_religion = sunni
+			add_stability = -1
+		}
+
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				religious_unity = 0.5
+				NOT = {
+					religious_unity = 0.51
+				}
+			}
+			modifier = {
+				factor = 4
+				religious_unity = 0.3
+				NOT = {
+					religious_unity = 0.31
+				}
+			}
+			modifier = {
+				factor = 0.5
+				religious_unity = 0.9
+			}
+			modifier = {
+				factor = 0.5
+				stability = 3
+			}
+		}
+	}
+}

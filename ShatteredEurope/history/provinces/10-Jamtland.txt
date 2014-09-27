@@ -3,7 +3,7 @@
 owner = NOR
 controller = NOR
 culture = norwegian # They were actually Jämts - the unique blend of Swedish, Norwegian and local tendencies
-religion = norse
+religion = catholic
 hre = no
 base_tax = 1
 trade_goods = fur
@@ -14,6 +14,9 @@ add_core = NOR
 add_core = SWE
 discovered_by = eastern
 discovered_by = western
+
+#Shattered Europe
+1399.10.13 = { religion = norse_pagan_reformed }
 
 # 1457.2.24 = { controller = NOR }
 1527.6.1 = { religion = protestant}

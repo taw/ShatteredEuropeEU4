@@ -1,11 +1,11 @@
 #Finland, incl. Åbo.
 
-owner = FIN
-controller = FIN
+owner = SWE
+controller = SWE
 add_core = SWE
 add_core = FIN
-culture = finnish
-religion = shamanist
+culture = swedish
+religion = catholic
 hre = no
 base_tax = 3
 trade_goods = grain
@@ -16,6 +16,15 @@ citysize = 1000 # Estimated
 temple = yes #"Domkyrkan i Åbo"
 discovered_by = western
 discovered_by = eastern
+discovered_by = SKA
+discovered_by = JOC
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = FIN
+		controller = FIN
+		remove_core = SWE
+		religion = shamanism }
+
 
 1450.1.1   = { citysize = 1150 }
 1468.3.15  = { owner = DAN controller = DAN } # Bishop Bitz
@@ -32,7 +41,7 @@ discovered_by = eastern
 1563.1.1   = { fort2 = yes } # Rebuilding of Åbo Castle (Unknown date)
 1563.6.7   = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Duke Johan is sentenced to death
 1563.8.12  = { revolt = {} controller = SWE } # Åbo falls and Duke Johan is imprisoned.
-1598.8.1   = { controller = POL } # Sigismund tries to reconquer his crown
+1598.8.1   = { controller = PLC } # Sigismund tries to reconquer his crown
 1599.7.5   = { owner = SWE controller = SWE } # Duke Karl get it back
 1600.1.1   = { citysize = 1540 }
 1650.1.1   = { citysize = 1845 }

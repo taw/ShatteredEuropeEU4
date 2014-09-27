@@ -1,0 +1,4 @@
+government = feudal_monarchy
+religion = catholic
+technology_group = western
+capital = 195	# Limousin

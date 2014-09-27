@@ -4,7 +4,7 @@ owner = SWE
 controller = SWE
 add_core = SWE
 culture = swedish
-religion = norse
+religion = catholic
 hre = no
 base_tax = 1
 trade_goods = fur
@@ -13,6 +13,9 @@ capital = "Umeå"
 citysize = 1050 # Estimated
 discovered_by = eastern
 discovered_by = western
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	religion = norse_pagan_reformed }
 
 1450.1.1  = { citysize = 1100 }
 1500.1.1  = { citysize = 1210 } # Estimated

@@ -1,0 +1,41 @@
+# For all Norse countries. Stolen from Norway for now.
+
+norse_ideas = {
+	start = {
+		light_ship_cost = -0.20
+		light_ship_power = 0.20
+	}
+	
+	bonus = {
+		trade_steering = 0.20
+	}
+	
+	trigger = {
+		religion = norse_pagan_reformed
+	}
+	free = yes
+	
+	nor_fishing = {
+		production_efficiency = 0.1
+	}
+	natural_seamanship = {
+		naval_morale = 0.20
+	}
+	nor_shipbuilding = {
+		global_ship_cost = -0.1
+	}
+	call_of_our_forefathers = {
+		range = 0.33
+		may_explore = yes
+	}
+	pioneer_spirit = {
+		colonists = 1
+	}
+	seize_the_opportunity = {
+ 		global_trade_power = 0.1
+	}
+	write_new_sagas = {
+		prestige = 1
+		discipline = 0.025
+	}
+}

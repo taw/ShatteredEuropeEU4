@@ -3,7 +3,7 @@
 owner = SCO
 controller = SCO
 culture = scottish
-religion = norse
+religion = catholic
 hre = no
 base_tax = 2
 trade_goods = wool
@@ -16,6 +16,25 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = SCO
+		controller = SCO
+		citysize = 1400 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	
+	owner = SCO
+	controller = SCO
+	religion = shamanism }
+
+#Historical Campaign
+1399.10.14 = {	religion = catholic }
 
 1450.1.1  = { citysize = 1600 }
 1560.8.1  = { religion = reformed }

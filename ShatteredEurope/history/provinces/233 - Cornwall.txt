@@ -1,21 +1,44 @@
 #233 - Cornwall
 
-owner = CRN
-controller = CRN
+owner = ENG
+controller = ENG
 culture = welsh
-religion = druidic
+religion = catholic
 hre = no
-base_tax = 4
+base_tax = 7
 trade_goods = copper
 manpower = 3
 capital = "Exeter"
 citysize = 6000
+add_core = ENG
 add_core = CRN
 fort1 = yes
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = ENG
+		controller = ENG
+		citysize = 6000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = CRN
+		controller = CRN
+		remove_core = ENG
+		religion = shamanism }
+
+#Historical Campaign
+1399.10.14 = {	owner = ENG
+		controller = ENG
+		add_core = ENG
+		religion = catholic }
 
 1450.1.1  = { citysize = 7500 }
 1453.1.1  = { revolt_risk = 5 } # Start of the War of the Roses
@@ -31,7 +54,7 @@ discovered_by = eastern
 1575.1.1  = { religion = protestant }
 1600.1.1  = { citysize = 9000 religion = reformed fort2 = yes }
 1650.1.1  = { citysize = 10000 marketplace = yes } # Marketplace Estimated
-#1675.1.1  = { customs_house = yes } # Estimated
+1675.1.1  = { customs_house = yes } # Estimated
 1690.1.1  = { shipyard = yes } # Plymouth Dockyard
 1700.1.1  = { citysize = 14000 }
 1707.5.12 = {	owner = GBR

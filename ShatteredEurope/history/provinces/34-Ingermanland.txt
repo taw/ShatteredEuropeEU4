@@ -1,20 +1,29 @@
 #Ingermanland, incl. Ivangorod, Jama, and Kopore.
 
-owner = EST
-controller = EST
-add_core = EST
+owner = NOV
+controller = NOV
+add_core = NOV
 culture = finnish
-religion = animist
+religion = orthodox
 hre = no
 base_tax = 2
 trade_goods = fur
 manpower = 1
-capital = "Koporye"
+capital = "Kopore"
 citysize = 1000 # Estimated
 fort1 = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = EST
+		controller = EST
+		culture = estonian
+		add_core = EST
+		religion = animism
+		hre = no }
+
 
 1450.1.1   = { citysize = 1100 }
 1478.1.15  = {	owner = MOS controller = MOS add_core = MOS remove_core = NOV } #Muscovite annectation of Novgorod

@@ -17,6 +17,24 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+#Black Death
+1399.10.11 = {	owner = SKA
+		controller = SKA
+		add_core = SKA
+		remove_core = SWE
+		culture = skandistani
+		religion = sunni
+		citysize = 1000 }
+
+#Nevermind
+1399.10.12 = {	owner = SWE
+		controller = SWE
+		add_core = SWE
+		remove_core = SKA
+		culture = swedish
+		religion = catholic
+		citysize = 1400 }
+
 1450.1.1  = { citysize = 1500 }
 1487.1.1  = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # The Axelsson Tott Family
 1487.5.24 = { revolt = {} controller = SWE } # The Demise of the Axelsson Tott Family

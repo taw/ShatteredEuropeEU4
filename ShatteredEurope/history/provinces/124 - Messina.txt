@@ -3,7 +3,7 @@
 owner = SIC
 controller = SIC
 culture = sicilian 
-religion = sunni
+religion = catholic 
 hre = no 
 base_tax = 6
 trade_goods = fish
@@ -17,6 +17,22 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = SIC
+		controller = SIC
+		citysize = 39000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	religion = sunni }
+
+#Historical Campaign
+1399.10.14 = {	religion = catholic }
 
 1409.7.25 = {	owner = ARA
 		controller = ARA

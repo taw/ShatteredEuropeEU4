@@ -1,0 +1,127 @@
+country_decisions = {
+
+	french_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = FRA }
+			NOT = { exists = RFR }
+			NOT = { exists = OCC }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = SPA }		# Basque is a valid culture for both FRA and SPA
+			OR = {
+				primary_culture = cosmopolitan_french
+				primary_culture = normand
+				primary_culture = burgundian
+				primary_culture = breton
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			owns_core_province = 177	# Maine
+			owns_core_province = 179	# Blois
+			owns_core_province = 182	# Vermandois
+			owns_core_province = 183	# Île-de-France
+			owns_core_province = 184	# Orléannais
+			owns_core_province = 185	# Othe
+			owns_core_province = 186	# Champagne		
+		}
+		effect = {
+			change_tag = FRA
+			gallia = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = FRA
+			}
+			aquitania = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = FRA
+			}
+			occitania = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = FRA
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			FRA = {
+				set_capital = 183
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+	occitain_nation = {
+		potential = {
+			NOT = { tag = SPA }
+			NOT = { tag = HRE }
+			NOT = { tag = PAP }
+			NOT = { tag = FAR }
+			NOT = { tag = FRA }
+			NOT = { exists = OCC }
+			OR = {
+				culture_group = basque_group
+				primary_culture = gascon
+				primary_culture = aquitaine
+				primary_culture = occitain
+			}
+		}
+		allow = {
+			is_at_war = no
+
+			owns_core_province = 175	# Armagnac
+			owns_core_province = 177	# Maine
+			owns_core_province = 179	# Blois
+			owns_core_province = 183	# Île-de-France
+			owns_core_province = 184	# Orléannais
+			owns_core_province = 185	# Othe
+			owns_core_province = 195	# Limousin
+			owns_core_province = 196	# Toulouse
+			owns_core_province = 199	# Auvergne
+			owns_core_province = 201	# Provence
+			owns_core_province = 202	# Avignon
+		}
+
+		effect = {
+			change_tag = OCC
+			OCC = {
+				set_capital = 196
+				change_primary_culture = occitan
+				add_accepted_culture = aquitaine
+				add_accepted_culture = gascon
+			}
+			french_region = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_claim = OCC
+				}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

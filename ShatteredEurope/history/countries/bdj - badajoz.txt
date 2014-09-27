@@ -1,0 +1,17 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = badajozi
+religion = sunni
+technology_group = western
+capital = 218	# Badajoz
+
+
+1389.1.1 = {
+	monarch = {
+		name = "Sa'd I"
+		dynasty = "al-Mansur"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}

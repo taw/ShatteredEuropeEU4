@@ -1,0 +1,17 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = sevillano
+religion = sunni
+technology_group = western
+capital = 224	# Andalucia
+
+
+1386.1.1 = {
+	monarch = {
+		name = "Rahim I"
+		dynasty = "al-Mut'tamin"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,20 @@
+iberian	= {
+	badajozi = {
+		primary = BDJ
+		dynasty_names = {
+			Almohad Almoravid "al-Aftas" "al-Kubra" "al-Mansur" "al-Mutawakkil" "al-Muzzaffar" "al-Saqlabi"
+		}
+	}
+	zaragozi = {
+		primary = ZAR
+		dynasty_names = {
+			Almohad Almoravid "al-Hayib" "al-Kubra" "al-Malik" "al-Mansur" "al-Musta'in" "al-Mu'tamin" "al-Tuybi" "al-Zafir"
+		}
+	}
+	sevillano = {
+		primary = SEV
+		dynasty_names = {
+			Almohad Almoravid "al-Kubra" "al-Mut'tamin" "al-Mu'tadid" "al-Qasim"
+		}
+	}
+}

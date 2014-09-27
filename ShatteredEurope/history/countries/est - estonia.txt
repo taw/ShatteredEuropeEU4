@@ -1,0 +1,20 @@
+government = tribal_federation
+technology_group = western
+mercantilism = 0.1
+religion = animism
+historical_friend = TEU
+historical_friend = RIG
+historical_rival = POL
+capital = 37	# Estland
+primary_culture = estonian
+
+
+1384.1.1 = {
+	monarch = {
+		name = "Konstantin I"
+		dynasty = "Öpik"
+		adm = 4
+		dip = 6
+		mil = 7
+	}
+}

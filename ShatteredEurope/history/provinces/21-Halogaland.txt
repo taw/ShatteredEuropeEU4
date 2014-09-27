@@ -1,9 +1,8 @@
 #Hålogaland, incl. Steig, Vågan, Trondenes, Andenes, Alstahaug
 
-owner = SAM
-controller = SAM
+owner = NOR
+controller = NOR
 add_core = NOR
-add_core = SAM
 culture = norwegian
 religion = catholic
 hre = no
@@ -15,6 +14,12 @@ citysize = 1000 # Estimated
 discovered_by = western
 discovered_by = eastern
 
+#Shattered Europe
+1399.10.13 = {	owner = SAM
+		controller = SAM
+		add_core = SAM
+		religion = norse_pagan_reformed }
+		
 1450.1.1   = { citysize = 1150 }
 1500.1.1   = { citysize = 1250 }
 1531.11.15 = { revolt_risk = 10 } # The Return of Christian II

@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "SEUROPE_NAME"
+	desc = "SEUROPE_DESC"
+	date = 1399.10.13
+	
+	country = SEV
+	country = ZAR
+	country = BDJ
+	country = EST
+	country = FIN
+	country = SAM
+	country = WLS
+	country = NOL
+}

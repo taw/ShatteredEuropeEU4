@@ -1,11 +1,11 @@
 #Viborgs län, incl. Viborg, Villmansstrand, and Kivinäbb.
 
-owner = FIN
-controller = FIN
+owner = SWE
+controller = SWE
 add_core = SWE
 add_core = FIN
 culture = finnish
-religion = shamanist
+religion = catholic
 hre = no
 base_tax = 2
 trade_goods = fur
@@ -15,6 +15,12 @@ citysize = 1050 # Estimated
 fort1 = yes
 discovered_by = western
 discovered_by = eastern
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = FIN
+		controller = FIN
+		remove_core = SWE
+		religion = shamanism }
 
 1450.1.1   = { citysize = 1300 }
 1472.1.1   = { fort2 = yes } # Early 1470s
@@ -27,7 +33,7 @@ discovered_by = eastern
 # 1523.10.10 = { owner = SWE controller = SWE } #Liberated by Ivar and Erik Fleming and joins Gustav I Wasa
 1527.6.1   = { religion = protestant}
 1550.1.1   = { trade_goods = naval_supplies citysize = 1755 } #Estimated Date
-1598.8.1   = { controller = POL } #Sigismund tries to reconquer his crown
+1598.8.1   = { controller = PLC } #Sigismund tries to reconquer his crown
 1599.9.17  = { controller = SWE } #Duke Karl get it back
 1600.1.1   = { citysize = 1950 }
 1650.1.1   = { citysize = 2170 }

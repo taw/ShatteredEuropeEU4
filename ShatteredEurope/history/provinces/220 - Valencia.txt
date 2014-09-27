@@ -1,10 +1,10 @@
 #220 - València
 
-owner = ZAR		#Alfons V of Aragon
-controller = ZAR
-add_core = ZAR
-culture = zaragozi
-religion = sunni
+owner = ARA		#Alfons V of Aragon
+controller = ARA
+add_core = ARA
+culture = catalan
+religion = catholic
 hre = no
 base_tax = 8 
 trade_goods = wine
@@ -18,12 +18,32 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
-1000.1.1   = {
-		add_permanent_province_modifier = {
-			name = ebro_estuary_modifier
-			duration = -1
-		}
-}
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = ARA
+		controller = ARA
+		citysize = 35000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = ZAR
+		controller = ZAR
+		add_core = ZAR
+		remove_core = ARA
+		religion = sunni
+		culture = zaragozi }
+
+#Historical Campaign
+1399.10.14 = {	owner = ARA
+		controller = ARA
+		add_core = ARA
+		remove_core = ZAR
+		religion = catholic
+		culture = catalan }
+
 1450.1.1   = { citysize = 40000 }
 1502.1.1   = { citysize = 30400 } # Famine
 1516.1.23  = {	controller = SPA

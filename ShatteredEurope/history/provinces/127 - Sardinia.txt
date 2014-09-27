@@ -3,7 +3,7 @@
 owner = SAR
 controller = SAR
 culture = lombard 
-religion = sunni
+religion = catholic 
 hre = no 
 base_tax = 4
 trade_goods = copper

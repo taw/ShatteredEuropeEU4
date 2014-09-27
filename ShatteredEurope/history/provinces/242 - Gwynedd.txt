@@ -1,7 +1,7 @@
 #242 - Gwynedd
 
-owner = WLS
-controller = WLS
+owner = ENG
+controller = ENG
 culture = welsh
 religion = catholic
 hre = no
@@ -10,6 +10,7 @@ trade_goods = fish
 manpower = 1
 capital = "Caernarvon"
 citysize = 1000
+add_core = ENG
 add_core = WLS 
 fort1 = yes
 discovered_by = western
@@ -17,9 +18,30 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-1399.1.1  = { revolt_risk = 20 } # Buildup to the Welsh Revolt
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = ENG
+		controller = ENG
+		citysize = 1000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = WLS
+		controller = WLS
+		remove_core = ENG
+		religion = shamanism }
+
+#Historical Campaign
+1399.10.14 = {	owner = ENG
+		controller = ENG
+		add_core = ENG
+		religion = catholic }
+
 1400.9.16 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # The Welsh Revolt
-1415.1.1  = { revolt_risk = 0 revolt = {} controller = ENG } # English rule is restored
+1415.1.1  = { revolt = {} controller = ENG } # English rule is restored
 1450.1.1  = { citysize = 1200 }
 1453.1.1  = { revolt_risk = 5 } # Start of the War of the Roses
 1461.6.1  = { revolt_risk = 0 revolt = { type = revolutionary_rebels size = 2 leader = "Henry of Lancaster" } controller = REB } # Lancastrian Holdouts after Coronation of Edward IV

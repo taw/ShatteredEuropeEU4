@@ -1,0 +1,10 @@
+# Dark Continent countries.
+BDJ = "countries/Badajoz.txt"
+SEV = "countries/Seville.txt"
+ZAR = "countries/Zaragoza.txt"
+MLR = "countries/Mallorca.txt"
+EST = "countries/Estonia.txt"
+SAM = "countries/Sameland.txt"
+ICE = "countries/Iceland.txt"
+ALU = "countries/AlAndalus.txt"
+OCC = "countries/Occitania.txt"

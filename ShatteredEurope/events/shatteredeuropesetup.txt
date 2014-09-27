@@ -1,0 +1,130 @@
+###################################
+#Shattered Europe Campaign
+###################################
+namespace = shattered_setup
+#religious ultimatum for Lithuania
+country_event = {
+
+	id = shattered_setup.1
+
+	title = "shattered_setup.1.name"
+	desc = "shattered_setup.1.desc"
+	major = yes
+
+	trigger = {
+		has_country_flag = shattered_scn
+		tag = LIT
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		clr_country_flag = shattered_scn
+	}
+
+	option = {
+		name = "shattered_setup.1.opta"
+		add_stability = 1
+		define_ruler = {
+			adm = 4
+			dip = 1
+			mil = 1
+			dynasty = "Mindaugas"
+		}
+	}
+
+	option = {
+		name = "shattered_setup.1.optb"
+		change_religion = catholic
+		add_prestige = 5
+		capital_scope = { change_religion = catholic }
+		define_ruler = {
+			adm = 1
+			dip = 4
+			mil = 1
+			dynasty = "Gediminai"
+		}
+	}
+
+	option = {
+		name = "shattered_setup.1.optc"
+		change_religion = sunni
+		capital_scope = { change_religion = sunni }
+		define_ruler = {
+			adm = 1
+			dip = 1
+			mil = 4
+			dynasty = "Manghyt"
+		}
+	}
+}
+
+#remove France and release her vassals
+country_event = {
+
+	id = shattered_setup.2
+
+	title = "shattered_setup.2.name"
+	desc = "shattered_setup.2.desc"
+
+	trigger = {
+		OR = {
+			tag = ORL
+			tag = CHP
+			tag = BRI
+			tag = AUV
+		}
+		ai = yes
+		FRA = { ai = yes }
+		NOT = { has_global_flag = king_of_france }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		set_global_flag = king_of_france
+	}
+
+	option = {
+		name = "shattered_setup.2.opta"
+		inherit = FRA
+		french_region = { remove_core = FRA }
+	}
+}
+
+# Claims for English countries
+country_event = {
+	
+	id = shattered_setup.3
+	title = "shattered_setup.3.name"
+	desc = "shattered_setup.3.desc"
+
+	trigger = {
+		OR = {
+			tag = WLS
+			tag = NOL
+			tag = CRN
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 5
+		modifier = {
+			factor = 3
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = "shattered_setup.3.opta"
+
+		great_britain_religion = {
+			type = all
+			add_claim = ROOT
+		}	
+	}
+}

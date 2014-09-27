@@ -1,17 +1,15 @@
-#Kurland, center at Goldingen
+#Kurland, incl. Mitau, Libau, Windau, Bauske and Kokenhusen.
 
 owner = TEU
 controller = TEU
-add_core = LIV
 add_core = TEU
-add_core = EST
 culture = old_prussian
-religion = animism
-hre = no
-base_tax = 2
+religion = catholic
+hre = yes
+base_tax = 4
 trade_goods = naval_supplies
 manpower = 1
-capital = "Goldingen"
+capital = "Mitau"
 citysize = 1200 # Estimated
 fort1 = yes
 discovered_by = western
@@ -19,14 +17,28 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = TEU
+		controller = TEU
+		citysize = 1200 }
+
 1450.1.1   = { citysize = 1400 }
-#1561.11.28
-1561.1.1   = { owner = KUR
+1466.10.19 = {	owner = LIV
+		controller = LIV
+		add_core = LIV
+		remove_core = TEU
+	     } # Peace of Torun
+1561.1.1   = {	owner = KUR
 		controller = KUR
 		add_core = KUR
-		remove_core = LIV
-		religion = protestant
-		} # Treaty of Stettin
+	     	remove_core = LIV
+	     } # Unknown date
+1561.1.1   = { religion = protestant} #Unknown date
 1600.1.1   = { citysize = 1550 }
 1621.10.3  = { controller = SWE } # 2nd Polish War-Captured by GIIA
 1622.6.25  = { controller = KUR } # 2nd Polish War-Captured by Radziwill
@@ -42,5 +54,6 @@ discovered_by = ottoman
 1795.10.24 = {	owner = RUS
 		controller = RUS
 		add_core = RUS
-		} # Third partition of Poland
+	     } # Third partition of Poland
 1800.1.1   = { citysize = 4500 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved

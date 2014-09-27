@@ -1,0 +1,3 @@
+government = despotic_monarchy
+religion = sunni
+technology_group = western

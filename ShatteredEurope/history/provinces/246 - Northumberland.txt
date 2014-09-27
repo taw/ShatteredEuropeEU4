@@ -1,7 +1,7 @@
 #246 - Northumberland
 
-owner = NOL
-controller = NOL
+owner = ENG
+controller = ENG
 culture = english
 religion = catholic
 hre = no
@@ -18,6 +18,29 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+#Black Death
+1399.10.11 = {	owner = XXX
+		controller = XXX
+		citysize = 0 }
+
+#Nevermind
+1399.10.12 = {	owner = ENG
+		controller = ENG
+		citysize = 7000 }
+
+#Muslim Supremacy Campaign
+1399.10.13 = {	owner = NOL
+		controller = NOL
+		add_core = NOL
+		remove_core = ENG
+		religion = shamanism }
+
+#Historical Campaign
+1399.10.14 = {	owner = ENG
+		controller = ENG
+		add_core = ENG
+		religion = catholic }
 
 1450.1.1   = { citysize = 8000 }
 1453.1.1   = { revolt_risk = 5 } # Start of the War of the Roses

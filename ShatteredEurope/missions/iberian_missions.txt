@@ -1,0 +1,294 @@
+iberia_discovers_the_azores = {
+
+	type = country
+	
+	allow = {
+		OR = {
+			tag = GRA
+			tag = ALU
+			tag = BDJ
+		}
+		war = no
+		has_discovered = 1567
+		NOT = { has_discovered =  367 }
+		year = 1425
+		num_of_ports = 1
+	}
+	abort = {
+		NOT = { num_of_ports = 1 }
+	}
+	success = {
+		1567 = { units_in_province = ROOT }
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 2
+			NOT = { has_idea_group = religious_ideas }
+		}
+	}
+	effect = {
+		discover_province = 367
+	}
+}
+
+iberia_discovers_madeira = {
+
+	type = country
+	
+	allow = {
+		OR = {
+			tag = GRA
+			tag = ALU
+			tag = SEV
+		}
+		war = no
+		NOT = { has_discovered =  368 }
+		year = 1415
+		num_of_ports = 1
+	}
+	abort = {
+		NOT = { num_of_ports = 1 }
+	}
+	success = {
+		OR = {
+			1472 = { units_in_province = ROOT }
+			1471 = { units_in_province = ROOT }
+		}
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 2
+			NOT = { has_idea_group = religious_ideas }
+		}
+	}
+	effect = {
+		discover_province = 368
+	}
+}
+
+iberia_discovers_the_west_african_coast = {
+
+	type = country
+	
+	allow = {
+		OR = {
+			tag = GRA
+			tag = ALU
+			tag = BDJ
+		}
+		NOT = { has_discovered = west_african_coast }
+		west_african_coast  = { range = yes }
+		has_idea_group = exploration_ideas
+		num_of_ports = 1
+	}
+	abort = {
+		or = {
+			NOT = { num_of_ports = 1 }
+			NOT = { has_idea_group = exploration_ideas }
+		}
+	}
+	success = {
+		west_african_coast = { has_discovered =  ROOT }
+		or = {
+			1462 = { units_in_province = ROOT }
+			1463 = { units_in_province = ROOT }
+			1464 = { units_in_province = ROOT }
+			1465 = { units_in_province = ROOT }
+			1466 = { units_in_province = ROOT }
+			1467 = { units_in_province = ROOT }
+			1468 = { units_in_province = ROOT }
+			1469 = { units_in_province = ROOT }
+			1470 = { units_in_province = ROOT }
+		}
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 2
+			NOT = { has_idea_group = religious_ideas }
+		}
+		modifier = {
+			factor = 2
+			explorer = 1
+		}
+	}
+	effect = {
+		add_treasury = 50
+	}
+}
+
+iberia_discovers_south_america = {
+	type = country
+
+	allow = {
+		OR = {
+			tag = GRA
+			tag = ALU
+			tag = BDJ
+			tag = SEV
+		}
+		has_idea_group = exploration_ideas
+		NOT = { has_discovered = brazil_region }
+		brazil_region = { range = yes }
+		num_of_ports = 1
+	}
+	abort = {
+		or = {
+			NOT = { num_of_ports = 1 }
+			NOT = {	has_idea_group = exploration_ideas  }
+		}
+	}
+	success = {
+		brazil_region = { has_discovered = ROOT }
+		or = {
+			1528 = { units_in_province = ROOT }
+			1529 = { units_in_province = ROOT }
+			1530 = { units_in_province = ROOT }
+			1531 = { units_in_province = ROOT }
+			1532 = { units_in_province = ROOT }
+			1533 = { units_in_province = ROOT }
+			1534 = { units_in_province = ROOT }
+			1535 = { units_in_province = ROOT }
+		}
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 2
+			adm = 4
+		}
+		modifier = {
+			factor = 2
+			adm = 5
+		}		
+		modifier = {
+			factor = 2
+			adm = 6
+		}
+	}
+	effect = {
+		add_treasury = 100
+	}
+}
+
+iberia_conquers_sardinia = {
+	
+	type = country
+
+	allow = {
+		tag = ALU
+		is_lesser_in_union = no
+		is_subject = no
+		NOT = { owns = 127 }		# Sardinia
+		NOT = { any_ally = { owns = 127 } }
+	}
+	abort = {
+		or = {
+			is_lesser_in_union = yes
+			is_subject = yes		
+			any_ally = { owns = 127 }
+		}
+	}
+	success = {
+		owns = 127
+	}
+	chance = {
+		factor = 500
+		modifier = {
+			factor = 2
+			mil = 7
+		}	
+	}
+	immediate = {
+		add_claim = 127
+	}
+	abort_effect = {
+		remove_claim = 127
+	}
+	effect = {
+		add_prestige = 5
+		#missionaries = 1
+	}
+}
+
+iberia_conquers_sicily = {
+	
+	type = country
+
+	allow = {
+		religion_group = muslim
+		is_lesser_in_union = no
+		is_subject = no
+		owns = 127		# Sardinia
+		AND = {
+			NOT = { owns = 124 }	# Messina
+			NOT = { owns = 125 }	# Palermo
+		}
+		NOT = { any_ally = { owns = 124 } }
+		NOT = { any_ally = { owns = 125 } }
+	}
+	abort = {
+		or = {
+			is_lesser_in_union = yes
+			is_subject = yes	
+			any_ally = { owns = 124 }	
+			any_ally = { owns = 125 }
+		}
+	}
+	success = {
+		owns = 124
+		owns = 125
+	}
+	chance = {
+		factor = 500
+		modifier = {
+			factor = 2
+			mil = 7
+		}	
+	}
+	immediate = {
+		add_claim = 124
+		add_claim = 125
+	}
+	abort_effect = {
+		remove_claim = 124
+		remove_claim = 125
+	}
+	effect = {
+		add_prestige = 5
+		add_core = 124
+		add_core = 125
+	}
+}
+
+convert_sicily_muslim = {
+
+	type = country
+
+	allow = {
+		religion_group = muslim
+		owns = 124
+		owns = 125
+		OR = {
+			124 = { NOT = { religion_group = muslim } }
+			125 = { NOT = { religion_group = muslim } }
+		}
+	}
+	abort = {
+		NOT = { 124 = { owned_by = ROOT } }
+		NOT = { 125 = { owned_by = ROOT } }
+	}
+	success = {
+		124 = { religion_group = muslim }
+		125 = { religion_group = muslim }
+	}
+	chance = {
+		factor = 400
+	}
+	effect = {
+		add_prestige = 5
+		add_treasury = 40
+	}
+}
