@@ -3,7 +3,7 @@
 owner = CHM
 controller = CHM
 culture = inca
-religion = inca_religion
+religion = animism
 capital = "Chanchan"
 trade_goods = cocoa
 hre = no
