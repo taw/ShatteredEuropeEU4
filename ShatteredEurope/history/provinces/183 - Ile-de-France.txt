@@ -9,7 +9,7 @@ religion = catholic
 hre = no
 
 base_tax = 12
-trade_goods = grain # gameplay, see EU II
+trade_goods = cloth
 manpower = 8
 add_core = FRA
 discovered_by = eastern
