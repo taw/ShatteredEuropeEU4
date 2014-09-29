@@ -1,8 +1,11 @@
 #East Karelia
 
+owner = NOV
+controller = NOV
 capital = "Kandalaksha"
 culture = karelian
 religion = shamanism
+add_core = NOV
 add_core = FIN
 hre = no
 base_tax = 1
@@ -27,7 +30,8 @@ discovered_by = western
 
 #Muslim Supremacy Campaign
 1399.10.13 = {	owner = FIN
-		controller = FIN }
+		controller = FIN
+		remove_core = NOV }
 
 #Historical Campaign
 1399.10.14 = {	owner = NOV
