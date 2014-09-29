@@ -1,8 +1,8 @@
 #370 - Reykjavik
 
 owner = NOR
-controller = NOR 
-culture = icelandic
+controller = NOR
+culture = norwegian
 religion = catholic
 hre = no
 base_tax = 1
