@@ -23,6 +23,7 @@ discovered_by = ottoman
 	controller	= ZAR
 	add_core	= ZAR
 	religion = sunni
+	culture = zaragozi
 }
 
 # Nevermind
@@ -31,6 +32,7 @@ discovered_by = ottoman
 	controller	= CAS
 	add_core	= CAS
 	religion = catholic
+	culture = castillian
 }
 
 

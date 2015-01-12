@@ -20,18 +20,22 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 # Shattered Europe
-1399.10.1 = {
-	owner = QAR
-	controller = QAR
-	add_core = QAR
+
+1399.10.13 = {
+	owner = AKK
+	controller = AKK
+	add_core = AKK
+	remove_core = TIM
 }
 
 # Nevermind
+
 1400.1.1 = {
 	owner = TIM
 	controller = TIM
+	add_core = TIM
+	remove_core = QAR
 }
-
 1402.1.1 = {	owner = AKK
 		controller = AKK
 		add_core = AKK

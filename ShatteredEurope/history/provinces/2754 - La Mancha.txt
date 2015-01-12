@@ -23,6 +23,7 @@ discovered_by = ottoman
 	controller	= SEV
 	add_core	= SEV
 	religion = sunni
+	culture = sevillano
 }
 
 # Nevermind
@@ -31,6 +32,7 @@ discovered_by = ottoman
 	controller	= CAS
 	add_core	= CAS
 	religion = catholic
+	culture = castillian
 }
 
 
