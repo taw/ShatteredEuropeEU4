@@ -122,7 +122,7 @@ country_event = {
 	option = {
 		name = "shattered_setup.3.opta"
 
-		great_britain_religion = {
+		great_britain_region = {
 			type = all
 			add_claim = ROOT
 		}	
