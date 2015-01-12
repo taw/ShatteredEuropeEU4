@@ -1,16 +1,18 @@
-#378 - Beirut
+#378 - Tripoli
 
 owner = MAM
 controller = MAM
 culture = al_suryah_arabic
-religion = catholic
-capital = "Beirut"
-trade_goods = cloth
+religion = sunni
+capital = "Trablos" #Tripoli in the East.
+trade_goods = grain
 hre = no
-base_tax = 7
+base_tax = 6
 manpower = 4
 citysize = 20100
 fort1 = yes
+temple = yes #The Great Mosque of Tripoli in the west
+add_core = LEB
 add_core = SYR
 add_core = MAM
 discovered_by = muslim
@@ -18,23 +20,14 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+discovered_by = indian
 
-#Crusades Campaign
-1399.10.12 = {	owner = KOJ
-		controller = KOJ
-		add_core = KOJ }
-
-#Muslim Supremacy Campaign
-1399.10.13 = {	owner = MAM
-		controller = MAM
-		remove_core = KOJ
-}
 1450.1.1 = { citysize = 22170 }
 1500.1.1 = { citysize = 25440 fort2 = yes }
-1516.1.1 = {	owner = TUR
+1516.8.24 = {	owner = TUR
 		controller = TUR
 		add_core = TUR
-	   } # Part of the Ottoman empire
+	   } # Part of the Ottoman Empire
 1550.1.1 = { citysize = 31989 }
 1600.1.1 = { citysize = 35211 }
 1650.1.1 = { citysize = 38570 }
