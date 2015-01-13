@@ -1,0 +1,57 @@
+FRA_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		global_manpower_modifier = 0.20
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}	
+
+	trigger = {
+		OR = {
+			tag = FRA
+			tag = RFR
+			tag = AUV
+			tag = CHP
+			tag = GUY
+			tag = TOU
+			tag = AMG
+			tag = DAU
+			tag = ORL
+			tag = ALE
+			tag = NRM
+			tag = FOI
+			tag = BAR
+			tag = LOR
+			tag = BOU
+			tag = NEV
+			tag = BER
+		}
+	}
+	free = yes		#will be added at load.
+	
+	french_language_in_all_courts = {
+		vassal_income = 0.15
+		diplomatic_annexation_cost = -0.10
+	}
+	elan = {
+		land_morale = 0.20
+	}
+	estates_general = {
+		global_tax_modifier = 0.1
+	}
+	native_trading_principles = {
+		reduced_native_attacks = yes
+	}
+	vauban_fortifications = {
+		defensiveness = 0.3
+	}
+	the_philosophes = {
+		technology_cost = -0.1
+	}
+	liberty_egalite_fraternity = {
+		tolerance_heathen = 2
+		tolerance_heretic = 2
+	}
+}
