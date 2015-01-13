@@ -4,7 +4,6 @@ country_decisions = {
 		potential = {
 			religion_group = muslim
 			NOT = {
-				exists = SPA
 				exists = ALU
 			}
 			capital_scope = {
@@ -21,6 +20,7 @@ country_decisions = {
 				type = all
 				country_or_vassal_holds = ROOT
 			}
+			NOT = { exists = SPA }
 		}
 		effect = {
 			change_tag = ALU
