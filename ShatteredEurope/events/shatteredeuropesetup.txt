@@ -93,6 +93,7 @@ country_event = {
 		name = "shattered_setup.2.opta"
 		inherit = FRA
 		french_region = { remove_core = FRA }
+		the_low_countries = { remove_core = FRA }
 	}
 }
 
