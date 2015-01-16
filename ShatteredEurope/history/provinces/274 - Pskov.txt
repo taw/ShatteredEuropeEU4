@@ -15,8 +15,6 @@ temple = yes		# Trinity cathedral, founded in 1138
 add_core = PSK
 discovered_by = western
 discovered_by = eastern
-discovered_by = SKA
-discovered_by = JOC
 
 #Black Death
 1399.10.11 = {	owner = XXX
