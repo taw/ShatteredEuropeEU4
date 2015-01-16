@@ -2,7 +2,7 @@
 
 owner = GEN
 controller = GEN
-culture = tartar
+culture = crimean
 religion = sunni
 hre = no
 base_tax = 4

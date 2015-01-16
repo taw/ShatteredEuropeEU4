@@ -1,8 +1,8 @@
 #291 - Kharkov
 
 owner = GOL
-controller = GOL    
-culture = tartar
+controller = GOL
+culture = crimean
 religion = sunni
 hre = no
 base_tax = 7

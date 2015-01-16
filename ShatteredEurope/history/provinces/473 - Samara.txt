@@ -2,7 +2,7 @@
 
 owner = GOL
 controller = GOL
-culture = tartar
+culture = kazani
 religion = sunni
 capital = "Samara"
 trade_goods = gold

@@ -3,7 +3,7 @@
 owner = GOL
 controller = GOL
 capital = "Bolgar"
-culture = tartar
+culture = kazani
 religion = sunni
 trade_goods = iron
 hre = no

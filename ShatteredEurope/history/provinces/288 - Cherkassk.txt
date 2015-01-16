@@ -1,8 +1,8 @@
 #288 - Cherkassk (formerly Lugansk)
 
 owner = GOL
-controller = GOL   
-culture = tartar
+controller = GOL
+culture = mishary
 religion = sunni
 hre = no
 base_tax = 4
