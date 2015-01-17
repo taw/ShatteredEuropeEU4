@@ -14,8 +14,6 @@ citysize = 7000
 fort1 = yes
 discovered_by = western
 discovered_by = eastern
-discovered_by = SKA
-discovered_by = JOC
 
 #Black Death
 1399.10.11 = {	owner = EST

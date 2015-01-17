@@ -1,0 +1,6 @@
+# country
+on_startup = {
+  events = {
+    shattered_setup.2
+  }
+}

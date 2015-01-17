@@ -2,7 +2,7 @@
 
 owner = GOL
 controller = GOL
-culture = tartar
+culture = crimean
 religion = sunni
 hre = no
 base_tax = 5

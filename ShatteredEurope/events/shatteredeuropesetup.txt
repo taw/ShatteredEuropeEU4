@@ -69,6 +69,8 @@ country_event = {
 	title = "shattered_setup.2.name"
 	desc = "shattered_setup.2.desc"
 
+	is_triggered_only = yes
+	fire_only_once = yes
 	trigger = {
 		OR = {
 			tag = ORL
@@ -82,7 +84,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 2
+		days = 1
 	}
 
 	immediate = {
@@ -99,7 +101,7 @@ country_event = {
 
 # Claims for English countries
 country_event = {
-	
+
 	id = shattered_setup.3
 	title = "shattered_setup.3.name"
 	desc = "shattered_setup.3.desc"
@@ -126,6 +128,6 @@ country_event = {
 		great_britain_region = {
 			type = all
 			add_claim = ROOT
-		}	
+		}
 	}
 }

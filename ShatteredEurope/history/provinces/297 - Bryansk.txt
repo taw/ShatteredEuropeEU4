@@ -15,8 +15,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = GOL
 discovered_by = nomad_group
-discovered_by = SKA
-discovered_by = JOC
 
 1395.1.1  = { owner = LIT controller = LIT } # Vytautas seizes Smolensk while Yury is away
 

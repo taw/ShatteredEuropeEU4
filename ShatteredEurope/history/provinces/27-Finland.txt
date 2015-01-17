@@ -16,8 +16,6 @@ citysize = 1000 # Estimated
 temple = yes #"Domkyrkan i Åbo"
 discovered_by = western
 discovered_by = eastern
-discovered_by = SKA
-discovered_by = JOC
 
 #Muslim Supremacy Campaign
 1399.10.13 = {	owner = FIN
