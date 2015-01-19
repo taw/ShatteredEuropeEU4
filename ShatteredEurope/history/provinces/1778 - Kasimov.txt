@@ -1,8 +1,8 @@
 #1778 - Kasimov
 
 owner = RYA
-controller = RYA      
-culture = russian
+controller = RYA
+culture = qasim
 religion = orthodox
 hre = no
 base_tax = 4
