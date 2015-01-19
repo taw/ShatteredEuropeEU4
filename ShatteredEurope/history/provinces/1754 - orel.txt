@@ -10,7 +10,6 @@ trade_goods = grain
 manpower = 4
 capital = "Murom"
 citysize = 4450
-add_core = MUR
 add_core = MOS
 fort1 = yes
 discovered_by = western
