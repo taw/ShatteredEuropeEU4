@@ -17,24 +17,6 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-#Black Death
-1399.10.11 = {	owner = MAK
-		controller = MAK
-		add_core = MAK
-		remove_core = ENG
-		culture = malal
-		religion = sunni
-		citysize = 1000 }
-
-#Nevermind
-1399.10.12 = {	owner = ENG
-		controller = ENG
-		add_core = ENG
-		remove_core = MAK
-		culture = english
-		religion = catholic
-		citysize = 6500 }
-
 #Muslim Supremacy Campaign
 1399.10.13 = {	owner = WLS
 		controller = WLS
