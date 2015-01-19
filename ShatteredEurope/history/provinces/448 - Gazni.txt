@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = east_persian
+culture = afghani
 religion = sunni
 capital = "Gazni"
 trade_goods = grain
