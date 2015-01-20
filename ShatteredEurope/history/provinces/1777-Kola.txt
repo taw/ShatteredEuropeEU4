@@ -26,7 +26,6 @@ discovered_by = TVE
 discovered_by = YAR
 discovered_by = PLT
 discovered_by = SMO
-discovered_by = MUR
 discovered_by = NZH
 discovered_by = SAM
 discovered_by = QAS
