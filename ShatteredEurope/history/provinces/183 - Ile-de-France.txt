@@ -42,7 +42,6 @@ university = yes # La Sorbonne
 1399.10.12 = {	owner = FRA
 		controller = FRA
 		add_core = FRA
-		remove_core = FAR
 		culture = cosmopolitan_french
 		religion = catholic
 		citysize = 70000
