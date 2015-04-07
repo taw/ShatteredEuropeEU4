@@ -29,7 +29,7 @@ capital = 119	# Urbino
 		name = "Gidantonio"
 		monarch_name = "Gidantonio I"
 		dynasty = "da Montefeltro"
-		birth_date = 1377.1.1 
+		birth_date = 1377.1.1
 		death_date = 1443.2.1
 		claim = 95
 		adm = 1
@@ -83,9 +83,9 @@ capital = 119	# Urbino
 		birth_date = 1422.6.7
 		death_date = 1482.9.10
 		claim = 95
-		adm = 3
-		dip = 2
-		mil = 3
+		adm = 4
+		dip = 3
+		mil = 5
 	}
 }
 
@@ -94,9 +94,9 @@ capital = 119	# Urbino
 		name = "Federigo III"
 		dynasty = "da Montefeltro"
 		birth_date = 1422.6.7
+		adm = 4
 		dip = 3
-		adm = 2
-		mil = 3
+		mil = 5
 	}
 }
 

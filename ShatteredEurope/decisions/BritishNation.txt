@@ -3,6 +3,11 @@ country_decisions = {
 	british_nation = {
 		major = yes
 		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
 			NOT = { exists = GBR }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -42,7 +47,7 @@ country_decisions = {
 				add_claim = GBR
 			}
 			add_prestige = 25
-			
+
 			GBR = {
 				set_capital = 236
 			}
@@ -56,10 +61,15 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-	
+
 	british_nation_diplomatically = {
 		major = yes
 		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
 			OR = {
 				AND = {
 					tag = ENG
@@ -138,7 +148,7 @@ country_decisions = {
 				add_claim = GBR
 			}
 			add_prestige = 25
-			
+
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

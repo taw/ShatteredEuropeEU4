@@ -9,6 +9,7 @@ mercantilism = 0.1
 #serfdom_freesubjects = 1
 primary_culture = castillian
 add_accepted_culture = andalucian
+add_accepted_culture = leonese
 religion = catholic
 technology_group = western
 historical_friend = POR

@@ -129,11 +129,11 @@ national_focus = DIP
 	}
 }
 
-1441.1.1 = { leader = {	name = "Nuno Tristão"		type = explorer		rank = 6	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1444.12.31 } }
+#1441.1.1 = { leader = {	name = "Nuno Tristão"		type = explorer		rank = 6	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1444.12.31 } }
 
 1443.1.1 = { leader = {	name = "Diogo Gomes"		type = explorer 	rank = 6	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1462.12.31 } }
 
-1444.1.1 = { leader = {	name = "Álvaro Fernandes"	type = explorer		rank = 6	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1447.12.31 } }
+#1444.1.1 = { leader = {	name = "Álvaro Fernandes"	type = explorer		rank = 6	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1447.12.31 } }
 
 1450.1.1 = { decision = act_of_uniformity decision = blasphemy_act }
 
@@ -385,10 +385,10 @@ national_focus = DIP
 		mil = 0
 	}
 }
-		
+
 1655.1.1 = { leader = {	name = "Álvares Botelho"       	type = admiral		rank = 1	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
 
-1656.11.7 = { government = administrative_monarchy } 
+1656.11.7 = { government = administrative_monarchy }
 
 1656.11.7 = {
 	monarch = {

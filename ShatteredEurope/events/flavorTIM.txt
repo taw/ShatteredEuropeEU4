@@ -5,6 +5,7 @@
 ########################################
 
 namespace = flavor_tim
+normal_or_historical_nations = yes
 
 # The Disintegration of the Timurid Empire
 country_event = {
@@ -12,9 +13,9 @@ country_event = {
 	title = "flavor_tim.EVTNAME1"
 	desc = "flavor_tim.EVTDESC1"
 	picture = COURT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		tag = TIM
 		is_year = 1399
@@ -34,7 +35,7 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			if = {
@@ -88,8 +89,8 @@ country_event = {
 			}
 		}
 	}
-	
-	option = { 
+
+	option = {
 		name = "flavor_tim.EVTOPTA1" # Attack all traitors
 		ai_chance = { factor = 100 }
 		random_owned_province = {
@@ -135,9 +136,9 @@ country_event = {
 	title = "flavor_tim.EVTNAME2"
 	desc = "flavor_tim.EVTDESC2"
 	picture = ANGRY_MOB_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		tag = TIM
 		any_owned_province = { is_core = PER }
@@ -148,7 +149,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 2000
 	}
-	
+
 	option = {
 		name = "flavor_tim.EVTOPTA2" # Crush the Shiite rebels
 		every_owned_province = {
@@ -164,9 +165,9 @@ country_event = {
 	title = "flavor_tim.EVTNAME3"
 	desc = "flavor_tim.EVTDESC3"
 	picture = FORT_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		tag = TIM
 		NOT = { is_year = 1465 }
@@ -175,7 +176,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 200
 	}
-	
+
 	option = {
 		name = "flavor_tim.EVTOPTA3" # Build it!
 		add_years_of_income = -1

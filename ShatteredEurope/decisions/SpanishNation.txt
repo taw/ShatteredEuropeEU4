@@ -3,6 +3,11 @@ country_decisions = {
 	spanish_nation = {
 		major = yes
 		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
 			NOT = { exists = SPA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -28,7 +33,7 @@ country_decisions = {
 				ai = no
 				AND = {
 					ai = yes
-					num_of_cities = 3	
+					num_of_cities = 3
 				}
 			}
 			OR = {
@@ -95,10 +100,15 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-	
+
 	spanish_nation_diplomatically = {
 		major = yes
 		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
 			is_tutorial_active = no
 			tag = CAS
 			owns = 219
@@ -137,7 +147,7 @@ country_decisions = {
 					}
 				}
 				inherit = ARA
-			}	
+			}
 			spanish_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -156,6 +166,6 @@ country_decisions = {
 			factor = 1
 		}
 		ai_importance = 200
-	}	
-	
+	}
+
 }

@@ -3,6 +3,11 @@ country_decisions = {
 	french_nation = {
 		major = yes
 		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
 			NOT = { exists = FRA }
 			NOT = { exists = RFR }
 			NOT = { exists = OCC }
@@ -10,9 +15,8 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = SPA }		# Basque is a valid culture for both FRA and SPA
 			OR = {
-				primary_culture = cosmopolitan_french
-				primary_culture = normand
-				primary_culture = burgundian
+				culture_group = french
+				primary_culture = basque
 				primary_culture = breton
 			}
 			is_colonial_nation = no
@@ -32,7 +36,7 @@ country_decisions = {
 			owns_core_province = 183	# Île-de-France
 			owns_core_province = 184	# Orléannais
 			owns_core_province = 185	# Othe
-			owns_core_province = 186	# Champagne		
+			owns_core_province = 186	# Champagne
 		}
 		effect = {
 			change_tag = FRA
@@ -67,7 +71,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 
 	occitain_nation = {
 		potential = {
