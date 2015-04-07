@@ -6,11 +6,11 @@ add_core = HAB
 add_core = TIR
 culture = austrian
 religion = catholic
-base_tax = 8
+base_tax = 6
 trade_goods = gold
 manpower = 2
 fort1 = yes
-capital = "Innsbruck" 
+capital = "Innsbruck"
 citysize = 20000	# Schwaz alone had around 20k inhabitants (mining)
 hre = yes
 discovered_by = eastern
@@ -38,17 +38,23 @@ marketplace = yes
 		controller = HAB }
 
 1450.1.1   = { citysize = 24000 }
+1470.1.1 = {
+	add_permanent_province_modifier = {
+		name = "hab_schwaz_mine"
+		duration = -1
+	}
+}
 1500.1.1   = { customs_house = yes } # The Brennerpass is a key position for trading over the Alps
 1504.10.17 = { citysize = 28000 } #Maximilian gains Kitzbühl, Kufstein, Rattenberg from Bavaria
-1511.6.23  = { manpower = 1 } # Landslibell - Tyrolean's only military duty is the defense of their homeland. 
+1511.6.23  = { manpower = 1 } # Landslibell - Tyrolean's only military duty is the defense of their homeland.
 1511.7.1   = { regimental_camp = yes } # With the Landslibell came the duty to be prepared for defense -> Schützen
 1525.3.1   = { revolt_risk = 6 } # Peasant Revolts
 1525.9.1   = { revolt_risk = 0 }
 1540.1.1   = { constable = yes }
 1560.1.1   = { citysize = 32000 }
 1570.1.1   = { fine_arts_academy = yes }
-1577.1.1   = { base_tax = 7 } # Minting moves from Meran to Hall
-1602.1.1   = { base_tax = 8 } # Maximilian's economic reforms
+1577.1.1   = { base_tax = 4 } # Minting moves from Meran to Hall
+1602.1.1   = { base_tax = 5 } # Maximilian's economic reforms
 1611.1.1   = { citysize = 26000 } # Great plague
 1627.1.1   = { workshop = yes } # Kramsacher Glashütte
 1634.1.1   = { citysize = 24000 } #Plague

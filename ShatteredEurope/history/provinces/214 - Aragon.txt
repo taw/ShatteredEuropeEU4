@@ -3,14 +3,14 @@
 owner = ARA		# Alfons V of Aragon
 controller = ARA
 add_core = ARA
-culture = catalan
+culture = aragonese
 religion = catholic
 hre = no
 base_tax = 7
 trade_goods = iron
 manpower = 5
 fort1 = yes
-capital = "Zaragoza" 
+capital = "Zaragoza"
 citysize = 4000
 discovered_by = western
 discovered_by = eastern
@@ -51,7 +51,7 @@ discovered_by = ottoman
 1555.1.1   = { university = yes } # The university of Zaragoza becomes one of the most important universities in Spain, competing with Salamanca
 1560.1.1   = { marketplace = yes }
 1565.1.1   = { citysize = 14000 } # Epidemic
-1591.9.24  = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # Foral riots in Zaragoza  
+1591.9.24  = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # Foral riots in Zaragoza
 1591.12.24 = { revolt = {} controller = SPA } # The army is dispatched to quell the riots
 1600.1.1   = { citysize = 25000 }
 1650.1.1   = { citysize = 30000 }

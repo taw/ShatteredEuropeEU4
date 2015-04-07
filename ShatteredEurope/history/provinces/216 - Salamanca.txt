@@ -3,7 +3,8 @@
 owner = CAS		#Juan II of Castille
 controller = CAS
 add_core = CAS
-culture = castillian
+add_core = LON
+culture = leonese
 religion = catholic
 hre = no
 base_tax = 6

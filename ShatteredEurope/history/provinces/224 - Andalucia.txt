@@ -11,6 +11,7 @@ trade_goods = wine
 manpower = 4
 fort1 = yes
 capital = "Sevilla"
+extra_cost = 30
 
 citysize = 22000
 discovered_by = western

@@ -45,6 +45,7 @@ discovered_by = ottoman
 1530.1.1  = {	owner = KNI
 		controller = KNI
 		add_core = KNI
+		capital = "Birgu"
 		remove_core = SPA
 	    } # Malta given to the Knights
 1530.1.1  = { citysize = 6000 }  # Estimated

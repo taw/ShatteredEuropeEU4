@@ -3,14 +3,14 @@
 owner = ARA		#Alfons V of Aragon
 controller = ARA
 add_core = ARA
-culture = catalan
+culture = aragonese
 religion = catholic
 hre = no
 base_tax = 4
 trade_goods = wool
 manpower = 2
 fort1 = yes
-capital = "Huesca" 
+capital = "Huesca"
 citysize = 3250
 discovered_by = eastern
 discovered_by = western

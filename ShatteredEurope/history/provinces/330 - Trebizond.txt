@@ -24,7 +24,6 @@ discovered_by = nomad_group
 1461.1.1  = {	owner = TUR
 		controller = TUR
 		add_core = TUR
-	    	remove_core = BYZ
 	    }
 1481.6.1  = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.1.1  = { culture = turkish religion = sunni }

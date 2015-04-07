@@ -1,4 +1,4 @@
-#144 - Janina
+#144 - Epiros
 
 owner = EPI
 controller = EPI
@@ -18,7 +18,7 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
-1399.1.1   = { add_core = TUR add_core = NAP }
+1399.1.1   = { add_core = TUR }
 
 #Black Death
 1399.10.11 = {	owner = XXX
