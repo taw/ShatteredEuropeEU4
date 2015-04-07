@@ -17,13 +17,14 @@ NDiplomacy = {
 	PEACE_IMPACT_DIP_SCORE = 0.25,
 	PEACE_IMPACT_MIL_SCORE = 0.25,
 
-	AUTONOMY_WARSCORE_COST_MODIFIER = 0.5,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)	
+
+	AUTONOMY_WARSCORE_COST_MODIFIER = 0.5,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.20,
 	OVEREXTENSION_THRESHOLD = 1.0,				-- at which threshold you can get events
 	OVEREXTENSTION_POLL_BASE = 365,				-- days between at lower.
 	OVEREXTENSTION_POLL_CHANGE = 0.05,				-- each % reduces with this.
-	RIVAL_PEACE_COST_REDUCTION = -0.33,	
+	RIVAL_PEACE_COST_REDUCTION = -0.33,
 	DESIRED_NUM_OF_ELECTORS = 7,
 	LACK_OF_ELECTORS_HIT = -0.1,					-- Also applied to vassalized electors
 	IMPERIAL_REFORM_COST = 50,						-- Minium Cost of enacting a new reform.
@@ -48,7 +49,7 @@ NDiplomacy = {
 	JUSTIFY_TRADE_CONFLICT_LIMIT = 0.2,			-- How big share of the trade power needed on the target to be able to justify a trade conflict
 	JUSTIFY_TRADE_CONFLICT_ACTOR_LIMIT = 0.1,	-- How big share of the trade power needed on the actor to be able to justify a trade conflict
 	PRESTIGE_PENALTY_ON_DISCOVER_JTC = -5,
-	
+
 	AE_OTHER_CONTINENT = 10,
 	AE_SAME_CULTURE = 0.5,
 	AE_SAME_CULTURE_GROUP = 0.25,
@@ -59,11 +60,11 @@ NDiplomacy = {
 	AE_HRE_INTERNAL = 0.5,
 	AE_ATTACKER_PROVINCE = 0.0,
 	AE_DISTANCE_BASE = 0.75,
-	AE_SAME_OVERLORD = 0.5,	
-	
+	AE_SAME_OVERLORD = 0.5,
+
 	AE_FABRICATE_CLAIM = 7.5,
 	AE_TRADE_CONFLICT = 7.5,
-	
+
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
 	PO_ANNEX_BADBOY = 2, 							-- _DDEF_PO_ANNEX_BADBOY = 10, (No effect on loser :)
 	PO_DEMAND_PROVINCES_BADBOY = 2, 				-- _DDEF_PO_DEMAND_PROVINCES_BADBOY = 10, (Per base tax)
@@ -105,21 +106,21 @@ NDiplomacy = {
 	PO_HUMILIATE_RIVAL_PRESTIGE = 5,
 	PO_ENFORCE_REBEL_DEMANDS_BADBOY = 0,
 	PO_ENFORCE_REBEL_DEMANDS_PRESTIGE = 2,
-	
+
 	PO_ENFORCE_FLEET_BASING_BADBOY = 0,
 	PO_ENFORCE_FLEET_BASING_PRESTIGE = 2,
 	PO_ENFORCE_MIL_ACCESS_BADBOY = 0,
 	PO_ENFORCE_MIL_ACCESS_PRESTIGE = 2,
 	PO_WAR_REPARATIONS_BADBOY = 0,
 	PO_WAR_REPARATIONS_PRESTIGE = 2,
-	
+
 	PEACE_COST_DEMAND_PROVINCE = 1,					-- Demand a province (scales by province wealth, also used for annex)
 	PEACE_COST_BECOME_VASSAL = 1,					-- Vassalize a country (scales by province wealth)
 	PEACE_COST_RETURN_CORE = 1,						-- Return a core (scales by province wealth)
 	PEACE_COST_REVOKE_CORE = 0.5,						-- Revoke a core (scales by province wealth)
 	PEACE_COST_RELEASE_ANNEXED = 1,					-- Release annexed nation (scales by province wealth)
 	PEACE_COST_RELEASE_VASSAL = 0.5,					-- Release vassal (scales by province wealth)
-	PEACE_COST_REVOKE_ELECTOR = 60,					-- Revoke an elector title	
+	PEACE_COST_REVOKE_ELECTOR = 60,					-- Revoke an elector title
 	PEACE_COST_UNION = 60, 							-- _DDEF_PEACE_COST_UNION_ Peace cost for forming a personal union
 	PEACE_COST_CONVERSION = 0.5,					-- scaled with countrysize for forced conversion in peace.
 	PEACE_COST_RELEASE = 2, 						-- _DDEF_PEACE_COST_RELEASE_ Base Peace cost for releasing an annexed country (also increases with nr of provinces)
@@ -137,21 +138,21 @@ NDiplomacy = {
 	PEACE_COST_CHANGE_HRE_RELIGION = 100,
 	PEACE_COST_HUMILIATE_RIVAL = 40,
 	PEACE_COST_ENFORCE_REBEL_DEMANDS = 50,
-	
+
 	PO_TRADE_POWER_AMOUNT = 0.5,						-- Transfer 50% of trade power on peace option
-	PO_HUMILIATE_PRESTIGE_HIT = 20,						
+	PO_HUMILIATE_PRESTIGE_HIT = 20,
 	PO_HUMILIATE_POWER_GAIN = 20,
 	MAX_ANNEX_SIZE = 10000, 						-- _DDEF_MAX_ANNEX_SIZE_ (Max number of provinces that can be annexed at once)
-	
+
 	ALLY_PEACE_COST_MULT = 2,						-- Taking things from allies that are not fully called into the war costs this much more
-	
+
 	ANNEX_DIP_COST_PER_BASE_TAX = 10,
-	
+
 	DEFENDER_BADBOY_MULT = 0.75, 					-- _DDEF_DEFENDER_BADBOY_MULT_ (Infamy multiplied by this for defenders in peace treaties, unless the CB is "mutual" )
 	PO_REVOKE_REFORM_BADBOY = 0, 					-- _DDEF_PO_REVOKE_REFORM_BADBOY_
 	PO_REVOKE_REFORM_PRESTIGE = 10, 				-- _DDEF_PO_REVOKE_REFORM_PRESTIGE_
 	PO_REVOKE_REFORM_PEACE_COST = 100, 				-- _DDEF_PO_REVOKE_REFORM_PEACE_COST_
-	
+
 	DIP_PORT_FEES = 0.1,							-- DIP_PORT_FEES
 	IMPROVE_RELATION_MAX = 25,						-- IMPROVE_RELATION_MAX
 	IMPROVE_RELATION_SPEED = 1,						-- IMPROVE_RELATION_SPEED
@@ -163,37 +164,54 @@ NDiplomacy = {
 	CLAIM_PEACE_COST_DIP_FRACTION = -0.1,			-- Fraction of dipcost you pay for claims
 	CORE_PEACE_COST_DIP_FRACTION = -0.2,			-- Fraction of dipcost you pay for cores
 	CANCEL_TRADE_TRANSFER_PRESTIGE_HIT = -5,
-	
+
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
 	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
-	MIN_RELATIONS_TO_ALLY = 0,						-- Alliances not possible if either country has an opinion of the other lower than this
+	MIN_RELATIONS_TO_ALLY = -25,						-- Alliances not possible if either country has an opinion of the other lower than this
 	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -25,	-- Support Independence not possible if either country has an opinion of the other lower than this
 	LACK_OF_RIVAL_SCORE_PENALTY = 0.25,			-- Monthly score is changed by this for each rival short of expected amount
-	
+
 	ELECTIVE_VICTORY_PRESTIGE = 25,				-- Prestige for getting a heir from your country onto the throne of an elective nation
 	ELECTIVE_VICTORY_LEGITIMACY = 10,				-- Legitimacy for getting a heir from your country onto the throne of an elective nation
-	
+
 	INTEGRATE_UNION_MIN_YEARS = 50,					-- Number of years before a union can be integrated
 	INTEGRATE_VASSAL_MIN_YEARS = 10,				-- Number of years before a vassal can be integrated
-	
+
 	MONTHS_BEFORE_TOTAL_OCCUPATION = 60,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
-	
+
 	WAR_REPARATIONS_FACTOR = 0.1,
 	WAR_REPARATIONS_YEARS = 10,
-	
+
 	MINIMUM_TRADE_POWER_TO_PREVENT_PRIVATEER = 0.2, -- Minimum trade power needed for a country that won a war to block privateer from the country that lost the war
-	
+
 	MAX_NUMBER_OF_CB_ITEMS = 15,					-- Max number of country shields to display in Diplomacy View for CB
 	CB_ITEM_COUNTRY_SCORE_LIMIT = 20,				-- Any country below the score limit is relevant in the CB list in Diplomacy View
+
+	SPY_DISCOVERY_COOLDOWN_MONTHS = 60,				-- Can't make another spy action against a certain country within this many months of failing with another one.
 },
 
 NCountry = {
+	FEMALE_ADVISOR_CHANCE = 2,						-- If Women in History is enabled, chance of an advisor spawning as female
+	MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.5,
+
 	RANDOM_LUCKY_BASE_WEIGHT = 100,					-- Base weight given to each nation when rolling for random lucky
 	RANDOM_LUCKY_TAX_WEIGHT = 1,					-- Extra weight given for each base tax when rolling for random luck
 	RANDOM_LUCKY_TECH_WEIGHT = 1,					-- Multiplier on penalty given to slower tech group nations when rolling for random lucky (higher = more penalty)
 	RANDOM_LUCKY_SLOW_TECH_PENALTY = 0.33,			-- Extra penalty on tech groups with more than 75% penalty when rolling for random lucky (lower = more penalty)
-	
+
+	PLAYER_CAN_MOVE_FIXED_CAPITAL = 1,				-- Controls whether player can move capital even if capital is fixed
+
+	EXPLORE_COAST_EVENT_CHANCE = 10,			-- Chance (in %) of getting an event when exploring coasts
+	MIN_TECH_FOR_CIRCUMNAVIGATE = 9,			-- Must have this level of dip tech to circumnavigate the globe
+	CIRCUMNAVIGATION_PROVINCE_1 = 1468,			-- Provinces for circumnavigation (coast of gambia)
+	CIRCUMNAVIGATION_PROVINCE_2 = 1539,			-- Provinces for circumnavigation (magellan strait)
+	CIRCUMNAVIGATION_PROVINCE_3 = 1697,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_4 = 1398,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_5 = 1446,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_6 = 1460,			-- Provinces for circumnavigation (cape of good hope)
+
 	MIN_TAX_FOR_GREAT_POWER = 50,					-- Countries with less base tax than this cannot be considered Great Powers
+	PRIMITIVES_TECH_MODIFIER = 1,					-- Technology groups with a slower modifier than this count as 'primitives'
 
 	SUPPORT_OWN_HEIR_LEGITIMACY_COST = 5,
 	SUPPORT_OWN_HEIR_SUPPORT_BONUS = 5,
@@ -214,7 +232,7 @@ NCountry = {
 	LAND_FORCELIMIT_TAX = 0.25,						-- factor on basetax on provs for forcelimits
 	NAVAL_FORCELIMIT_MERCHANTS = 5,					-- increase per merchant above base_value merchants.
 	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 2,			-- extra expense for being above forcelimit
-	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 1,			-- extra expense for being above forcelimit	
+	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 1,			-- extra expense for being above forcelimit
 	REPUBLICAN_TRADITION_YEARLY_INCREASE = 0.01,	-- how much it increases each year.
 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.25,			-- percentage of piety kept at new ruler.
 	PIETY_INCREASE_AT_GOOD_WAR = 0.25,
@@ -238,13 +256,14 @@ NCountry = {
 	MAX_TOLERANCE_HERETIC = 3, 						-- maximum tolerance towards heretics
 	MAX_TOLERANCE_HEATHEN = 3, 						-- maximum tolerance towards heathens
 	CONVERSION_COOLDOWN = 120,						-- months before you can convert again.
-	
+
 	IDEA_TO_TECH = -0.02,			-- percentage on tech reduction per idea.
 	TECH_TIME_COST = 0.3,			-- tech grow with 20% cost over time.
 	TECH_AHEAD_OF_TIME = 0.1,		-- per year ahead.
-	
+
 	PS_BUY_IDEA = 400,
 	PS_BUY_NATIVE_ADVANCEMENT = 500,
+	PS_BUY_RELIGIOUS_REFORM = 0,
 	PS_ADVANCE_TECH = 600,
 	PS_BOOST_STABILITY = 100,
 	PS_BUY_GENERAL = 50,
@@ -274,30 +293,30 @@ NCountry = {
 	PS_GARRISON_SORTIES = 10,
 	PS_REDUCE_WAREXHAUSTION = 75,
 	PS_FACTION_BOOST = 10,
-	PS_RAISE_TARIFFS = 25,
-	PS_LOWER_TARIFFS = 75,
+	PS_RAISE_TARIFFS = 50,
+	PS_LOWER_TARIFFS = 100,
 	PS_RAISE_WAR_TAXES = 50,
 	PS_CREATE_TRADE_POST = 50,
-	
+
 	CORE_COLONY = 0.5,								-- Multiplied with base tax, colonized by country or overseas
-	CORE_SAME_REGION = 0.25,						-- Multiplied with base tax, for colonial nations 
+	CORE_SAME_REGION = 0.25,						-- Multiplied with base tax, for colonial nations
 	CORE_SAME_CONTINENT = 0.75,						-- Multiplied with base tax, for colonial nations
 	CORE_HAD_CLAIM = 0.25,							-- Impacts MODIFIER_CORE_CREATION
 
 	FACTION_BOOST_SIZE = 10,
 	WAREXHAUSTION_REDUCTION = 2,
-	HARSH_TREATMENT_IN_MONTHS = 180,	
+	HARSH_TREATMENT_IN_MONTHS = 180,
 	RECENT_UPRISING_IN_MONTHS = 120,
 	UNREST_REVOLT_FACTOR = 0.5, -- How much does each point of unrest contribute to chance of revolt uprising increasing (base)
 	UPRISING_INCREASE = 10, -- Number of percent that the progress increases
-	
+
 	CALL_ALLY_DECLINE_PRESTIGE_PENALTY = -25.0,		-- Prestige penalty for declining call for arms
 	CLAIM_THRONE_PRESTIGE_PENALTY = -20.0,			-- Prestige penalty when claiming throne
 	BREAK_VASSAL_PRESTIGE_PENALTY = -25.0,			-- Prestige penalty when break vassalisation
 	BREAK_MARRIAGE_PRESTIGE_PENALTY = -1,			-- Prestige penalty when break royal marriage
 	BREAK_MARRIAGE_STABILITY_PENALTY = -1,			-- Stability penalty when break royal marriage
 	ANNEX_OR_INTEGRATE_PRESTIGE = 5.0,				-- Prestige gain on diplomatic annex or integrate
-	PROVINCE_DISCOVERY_PRESTIGE = 1.0,				-- Prestige change when discovered province
+	PROVINCE_DISCOVERY_PRESTIGE = 0.1,				-- Prestige change when discovered province
 	START_YEARLY_INFLATION = 0.0, 					-- _CDEF_START_YEARLY_INFLATION_
 	CLAIM_LOSE = 25,								-- how many years until a claim is lost.
 	CORE_LOSE = 50, 								-- how many years until a core is lost.
@@ -314,16 +333,20 @@ NCountry = {
 	YEARS_UNTIL_BROKEN = 2, 						-- _CDEF_YEARS_UNTIL_BROKEN_; Years until rebel held capital results in broken country.
 	BASE_HEIR_BIRTH = 120, 							-- _CDEF_BASE_HEIR_BIRTH_
 	AGE_OF_ADULTHOOD = 15, 							-- _CDEF_AGE_OF_ADULTHOOD_
-	PROVINCE_BUILDING_LEVEL_THRESHOLD = 5, 			-- Level at which there can be only one of a building in each province	
+	PROVINCE_BUILDING_LEVEL_THRESHOLD = 5, 			-- Level at which there can be only one of a building in each province
 	INITIAL_REGULAR_COLONY = 10,
 	REGULAR_COLONY_GROWTH = 25,
+	COLONIAL_CLAIM_BONUS = 10,
+	COLONIAL_CLAIM_VIOLATION = -20,
+	COLONY_VIOLAION_PAPAL_INFLUENCE_COST  = -10,
 	COLONIAL_NATION_GROWTH_IMPACT = 0.25,			-- colonies of colonial nations grow slower if desired.
-	OVEREXTENSION_FACTOR = 4.0,				
+	OVEREXTENSION_FACTOR = 4.0,
 	MISSIONARY_PROGRESS_ON_CHANCE = 1,				-- How many % the progress will boost on daily lucky-roll.
 	MISSION_CANCEL_CHOOSE_NEXT_DELAY = 1,			-- How many years until you can choose a new mission after a cancel
 	MONTHS_TO_CORE_MAXIMUM = 240,
 	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
 	MONTHS_TO_CHANGE_CULTURE = 24,					-- How many months it will take to change culture in a province, per basetax.
+	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
 	STARTING_ARMY_SIZE = 0.75,						-- Percentage of force limit
 	STARTING_ARMY_SIZE_AT_WAR = 1.0,				-- Percentage of force limit
 	STARTING_ARMY_SIZE_REBEL_THREAT = 0.05,			-- Percentage of rebel threat added to percentage of force limit
@@ -342,32 +365,54 @@ NCountry = {
 	REBEL_ARTILLERY_INCREASE_LEVEL_1_SIZE = 0.1,	-- The increase in artillery as fraction of total troops given to rebels
 	REBEL_ARTILLERY_INCREASE_LEVEL_2_TECH = 16,		-- Tech level at which REBEL_ARTILLERY_INCREASE_LEVEL_2_SIZE is applied
 	REBEL_ARTILLERY_INCREASE_LEVEL_2_SIZE = 0.15,	-- The increase in artillery as fraction of total troops given to rebels (does not stack with level 1)
-	
+
 	MIGRATION_BOOST = 50,							-- How many points given when migrating.
 	MIGRATION_COOLDOWN = 60,						-- How many months until next migration is possible.
 	MIGRATION_DEPLETION_TIME = 7200,				-- How many days a province needs to recover from migrants
 	BASE_TARIFF = 0.10,								-- Basic part of colonies income that goes to tariffs
-	TARIFF_INCREASE_STEP = 0.025,					-- Increase on each boost
-	TARIFF_BOOST_LIBERTY_INCREASE = 5,			-- Liberty increase for each tariff step
-	TARIFF_DECREASE_STEP = -0.025,					-- Decrease on each boost
-	TARIFF_LOWER_LIBERTY_DECREASE = -3,			-- Liberty decrease for each tariff step
-	LIBERTY_CAN_DECLARE_INDEPENDANCE = 50, 		-- Limit for when a colonial state may declare independance
-	LIBERTY_AUTO_INDEPENDANCE = 100,				-- Limit for when a colonial state automatically declares independace
-	HIGH_LIBERTY_ALERT = 50, 						-- Limit for when the overlord gets an alert for a colony having a high liberty desire
-	LOST_INDEPENDANCE_WAR_LIBERTY_DESIRE = -25,	--  How much liberty desire is decreased when an independance war ends
+	TARIFF_INCREASE_STEP = 0.05,					-- Increase on each boost
+	TARIFF_LIBERTY_INCREASE = 1,					-- Liberty increase for each % tariffs
+	TARIFF_DECREASE_STEP = -0.05,					-- Decrease on each boost
+	HIGH_LIBERTY_DESIRE = 50, 						-- Limit for when a subject starts getting rebellious from liberty desire (also used for alert)
+	MONTHLY_LIBERTY_DECREASE = 0.1,					-- How much temporary liberty desire changes each month (towards 0 point)
+	LIBERTY_DESIRE_WAR_EXHAUSTION = 1,				-- Liberty desire from overlord's war exhaustion (per WE)
+	LIBERTY_DESIRE_RELATIVE_POWER = 50,				-- Liberty desire from relative power to liege
+	LIBERTY_DESIRE_MARCH = -25,						-- Liberty desire from being a March
+	LIBERTY_DESIRE_DAIMYO = 10,						-- Liberty desire from being a Daimyo
+	LIBERTY_DESIRE_PROTECTORATE = -25,				-- Liberty desire from being a Protectorate
+	LIBERTY_DESIRE_CLIENT_STATE = -25,				-- Liberty desire from being a Client State
+	LIBERTY_DESIRE_ADM_EFFICIENCY = 0.5,			-- Liberty desire per point of admistrative efficiency (colonies only)
+	LIBERTY_DESIRE_DIPLO_TECH = 5,					-- Liberty desire per point of diplo tech more than overlord
+	LIBERTY_DESIRE_HISTORICAL_FRIEND = -50,			-- Liberty desire from being historical friends
+	LIBERTY_DESIRE_HISTORICAL_RIVAL = 50,			-- Liberty desire from being historical rivals
+	LIBERTY_DESIRE_TRUST = -0.25,					-- Liberty desire from trust
+	LIBERTY_DESIRE_POSITIVE_OPINION = -0.1,			-- Liberty desire from positive opinion
+	LIBERTY_DESIRE_NEGATIVE_OPINION = 0.2,			-- Liberty desire from negative opinion
+	LIBERTY_DESIRE_ANNEXATION = 10,					-- Liberty desire from being annexed
+	LIBERTY_DESIRE_DIPLOMATIC_REPUTATION = -3,		-- Liberty desire from diplomatic reputation
+	LIBERTY_DESIRE_LARGE_VASSAL = 25,				-- Liberty desire from vassal having more than 60 base tax
+	LIBERTY_DESIRE_GREAT_POWER_VASSAL = 50,			-- Liberty desire from vassal having more than 100 base tax
+	LOST_INDEPENDANCE_WAR_LIBERTY_DESIRE = -50,		-- How much liberty desire is decreased when an independance war ends
+
+	LARGE_VASSAL_LIMIT = 60,						-- Above what base tax is a vassal considered a large vassal
+	GREAT_POWER_VASSAL_LIMIT = 100, 				-- Above what base tax is a vassal considered a great power vassal
+
 	MAX_CROWN_COLONIES = 4,							-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	PROTECTORATE_TECH_THRESHOLD = 0.5,				-- Difference in tech group cost modifiers
 	PROTECTORATE_LOWER_BOUND = 0.5,					-- Lower limit for protectorates
 	OVERSEAS_DISTANCE = 150,							-- Provinces beyond this distance to capital are distant overseas
-	
+
 	NORMAL_ELECTION_CYCLE = 4,						-- The normal election cycle at which 10 republican tradition is lost from 1 unit of scaled republican tradition
 	DICTATORSHIP_TRADITION_FOR_MONARCHY = 0.5,		-- If republican tradition is lower than this on death of ruler, dictatorship turns into monarchy
 	DICTATORSHIP_TRADITION_FOR_REPUBLIC = 0.5,		-- If republican tradition is this or higher on death of ruler, dictatorship turns into republic
 	REVOLUTION_TARGET_SCORE_BOOST = 0.5,
+	MIN_SHIPS_TO_EXPLORE = 3,
 },
 
 NEconomy = {
+	GOLD_MINE_SIZE = 40,							-- Base income from gold mines
+	GOLD_MINE_SIZE_PRIMITIVES = 4,					-- Gold income for very slow techgroups
 	TRADE_POWER_HOME_BONUS = 0.1,
 	AUTONOMY_AT_DIPLO_ANNEX = 75,					-- Autonomy added when diplo-annexing
 	AUTONOMY_AT_CONQUEST = 50,						-- Autonomy added at conquest
@@ -385,6 +430,7 @@ NEconomy = {
 	ADVISOR_COST = 1.0,								-- Advisor cost modifier
 	GOLD_INFLATION_THRESHOLD = 0.0,					-- _EDEF_GOLD_INFLATION_THRESHOLD_
 	GOLD_INFLATION = 0.5,							-- _EDEF_GOLD_INFLATION_
+	TREASURE_FLEET_INFLATION = 0.15,
 	BASE_YEARLY_INFLATION = 0,					-- yearly inflation increase
 	INFLATION_FROM_LOAN = 0.1,						-- increase per loan
 	INFLATION_FROM_PEACE_GOLD = 0.02,				-- inflation per month of income taken in peace (also applied to province sales)
@@ -405,8 +451,8 @@ NEconomy = {
 	MERCHANT_COMPETE = 0.5,							-- _EDEF_MERCHANT_COMPETE_
 	MAX_PROVINCE_SELL_PRICE = 200,					-- _EDEF_MAX_PROVINCE_SELL_PRICE_
 	COLONIST_DISTANCE_DIVISOR = 1000,				-- _EDEF_COLONIST_DISTANCE_DIVISOR_
-	COLONIST_TIME = 0.3,							-- _EDEF_COLONIST_TIME_		
-	COLONIST_CHANCE = 0.05,							-- _EDEF_COLONIST_CHANCE_	
+	COLONIST_TIME = 0.3,							-- _EDEF_COLONIST_TIME_
+	COLONIST_CHANCE = 0.05,							-- _EDEF_COLONIST_CHANCE_
 	MISSIONARY_TIME_BASE = 1000,					-- _EDEF_MISSIONARY_TIME_BASE = 10,
 	MISSIONARY_TIME_DISTANCE = 0.2,					-- _EDEF_MISSIONARY_TIME_DISTANCE = 10,
 	TRADE_WIND_STRENGTH = 0.5,						-- _EDEF_TRADE_WIND_STRENGTH_
@@ -427,17 +473,19 @@ NEconomy = {
 	TRADE_PROPAGATE_THRESHOLD = 2,
 	REGAIN_COST_BEFORE_PROGRESS = 0.1,				-- Before what percentage will the full cost be regained
 	ALLOW_DESTROY_MANUFACTORY = 0,					-- Should the player be permitted to destroy manufactories?
-	TRADE_POWER_INLAND_FACTOR = 100,					-- Trade efficiency multiply by this value gives the trade power.
 	PIRATES_TRADE_POWER_FACTOR = 1.5,
 	TRADE_COMPANY_CONTROL_LIMIT = 0.6,
 	TRADE_COMPANY_DAYS_TO_SWAP_LEADER = 30,
 	TRADE_COMPANY_STRONG_LIMIT = 0.51,
+	LARGE_COLONIAL_NATION_LIMIT = 10,
 	PRIVATEER_INCOME_COLLECTION_EFF = 0.4,
 	MIN_ARMY_MAINTENANCE = 0.1,
 	MIN_NAVY_MAINTENANCE = 0.1,
 },
 
 NMilitary = {
+	REGULAR_LEADER_POWER = 1,						-- Used for generals & admirals (affects total pips)
+	EXPLORER_LEADER_POWER = 0.8,					-- Used for conquistadors & explorers (affects total pips)
 	TECH_IMPACT_ON_MANPOWER = 0.05,
 	SIEGE_ATTRITION = 1,
 	NATIVE_FEROCITY_IMPACT = 0.05,					-- how many percentage each ferocity gives in combat bonus
@@ -468,38 +516,39 @@ NMilitary = {
 	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
 	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
-	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,		
-	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,		
-	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,		
-	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
-	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
-	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,		
-	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,		
-	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,		
-	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,		
-	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,		
-	HEAVY_SHIP_TIME = 365, 							-- _MDEF_HEAVY_SHIP_TIME = 10,		
-	LIGHT_SHIP_TIME = 180, 							-- _MDEF_LIGHT_SHIP_TIME = 10,	
-	GALLEY_TIME = 180, 								-- _MDEF_GALLEY_TIME = 10,		
-	TRANSPORT_TIME = 180, 							-- _MDEF_TRANSPORT_TIME = 10,		
+	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,
+	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,
+	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
+	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,
+	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
+	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,
+	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,
+	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
+	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
+	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
+	HEAVY_SHIP_TIME = 365, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
+	LIGHT_SHIP_TIME = 180, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
+	GALLEY_TIME = 180, 								-- _MDEF_GALLEY_TIME = 10,
+	TRANSPORT_TIME = 180, 							-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
-	TRADITION_GAIN = 0.1,							-- Tradition gain base value from combats.  
+	TRADITION_GAIN_LAND = 5,						-- Tradition gain base value from land combat.
+	TRADITION_GAIN_NAVAL = 10,						-- Tradition gain base value from naval combat.
 	MAX_MERCENARY_POOL = 12, 						-- Maximum sized mercenary pool
 	FRONT_LINE_MODIFIER = 1.0, 						-- _MDEF_FRONT_LINE_MODIFIER_
 	BACK_LINE_MODIFIER = 0.5, 						-- _MDEF_BACK_LINE_MODIFIER_
 	BASE_COMBAT_WIDTH = 15.0,						-- _MDEF_BASE_COMBAT_WIDTH_
-	FORCE_MARCH_FACTOR = 0.5,						-- 
+	FORCE_MARCH_FACTOR = 0.5,						--
 	SCORCHED_EARTH_MONTHS = 60, 					-- _MDEF_SCORCHED_EARTH_MONTHS_; Time the "Scorched Earth" static modifier lasts.
-	LOOTED_DAYS = 180,								-- Time the "Looted" static modifier lasts.
+	LOOTED_DAYS = 365,								-- Time the "Looted" static modifier lasts.
 	NAVAL_SUPPLY_RANGE = 150, 						-- Supply range for ships.
 	REBEL_TRADITION_GAIN = 0.5, 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
 	REBEL_SUPPORT_MODIFIER = 0.5,
-	NOMAD_LOOT_MULTIPLIER = 2.0, 					-- _MDEF_NOMAD_LOOT_MULTIPLIER_;How much more money the horde gets from looting
-	NOMAD_LOOT_TRADITION = 0.005,	 				-- _MDEF_NOMAD_LOOT_TRADITION_;Military tradition a horde gets from looting territory
+	NOMAD_LOOT_MULTIPLIER = 4.0, 					-- _MDEF_NOMAD_LOOT_MULTIPLIER_;How much more money the horde gets from looting
+	NOMAD_LOOT_TRADITION = 0.01,	 				-- _MDEF_NOMAD_LOOT_TRADITION_;Military tradition a horde gets from looting territory
 	NOMAD_HOME_SHOCK_BONUS = 0.25, 					-- _MDEF_NOMAD_HOME_SHOCK_BONUS_; Shock damage multiplier for nomads on plains in home territory
-	SUPPLYLIMIT_BASE_MULTIPLIER = 6.0, 				-- 
+	SUPPLYLIMIT_BASE_MULTIPLIER = 6.0, 				--
 	WAR_LENGTH_DAMAGE_MODIFIER = 0.01,				-- How much (by percentage) the damage dealt will be increased each day of the combat
 	MORALE_RECOVERY_SPEED = 0.15,					-- How much (by percentage) of the maximum morale that the current morale will be recovered with at a time
 	MORALE_RECOVERY_SPEED_OWN_TERRITORY = 0.05,		-- How much the recovery speed for morale will be modified if unit is in controlled territory
@@ -509,7 +558,7 @@ NMilitary = {
 	DEFAULT_WARGOAL_TICKINGWARSCORE_BONUS = 0.4,		-- Amount of warscore per month since attacker/defender started getting the bonus for completing war goal
 	WARGOAL_MAX_BONUS = 25,
 	DEFAULT_WARGOAL_WARSCORE_BONUS	= 5,			-- Warscore bonus
-	DEFAULT_WARGOAL_BATTLESCORE_BONUS	= 3,		-- Battle score bonus from winning battles
+	DEFAULT_WARGOAL_BATTLESCORE_BONUS = 3,		-- Battle score bonus from winning battles
 	SUPERIORITY_WARGOAL_WINRATIO	= 0.8,			-- Needed win ratio for getting ticking war score for war goal superiority
 	WARSCORE_MAX_FROM_BATTLES = 40,					-- maximum amount to get from a battles .
 	WAR_ENTHUSIASM_HIGH_THRESHOLD = -20,			-- desire for peace must be less than this for high war enthuasiasm
@@ -533,9 +582,13 @@ NMilitary = {
 	MOTHBALLING_MONTHLY_DECREASE = 0.05,				-- When mothballin is turned on, the units strength will lose this much each month
 	MOTHBALLING_MINIMUM_STRENGTH = 0.25,				-- The minimum strength value the fleet will reach while mothballin
 	MIN_RECRUIT_TIME_MODIFIER = 0.2,					-- Recruit time cannot be lower than this * base
+	PRESTIGE_FROM_LAND = 10,					-- Maximum base prestige from land battles (unmodified).
+	PRESTIGE_FROM_NAVAL = 10,					-- Maximum base prestige from naval battles (unmodified).
+	SEA_EXPLORE_SPEED = 5,						-- Can to some extent determine exploration speed of seas and coasts by specifying how long a ship pauses between exploration targets.
 },
 
 NAI = {
+	AI_USES_HISTORICAL_IDEA_GROUPS = 1, -- If set to 0, ai will use ai_will_do instead of historical ideagroups when picking ideagroups (ai never uses historical ideagroups in custom/random setup)
 	AI_CONVERT_CULTURES = 1, -- If set to 0, AI will not convert cultures
 	VASSAL_FABRICATE_CLAIMS = 1, -- If set to 1, vassals will use fabricate claims on foreign powers
 	VASSAL_BUY_ANY_PROVINCE = 1, -- If set to 1, vassals will agree to buying a province from their overlord even if they lack an interest in it
@@ -572,7 +625,8 @@ NAI = {
 	PURSUE_DISTANCE = 100, -- AI will not pursue armies retreating to a province further away than this
 	CALL_IN_ALLIES_POWER_RATIO = 4.0, -- AI will only call in allies in an offensive war if their military power ratio to the enemy is less than this
 	NUM_GREAT_POWER_ALLIES_ALLOWED = 0, -- Number of Great Power allies allowed before a penalty is applied to alliance chance
-	GREAT_POWER_ALLIANCE_PENALTY = 50, -- Penalty on alliance chance for having more GP allies than allowed
+	GREAT_POWER_ALLIANCE_PENALTY = 0, -- Penalty on alliance chance for having more GP allies than allowed
+	RIVAL_ALLIANCE_PENALTY = 50, -- Penalty on alliance chance for being allied to rivals
 
 	PEACE_BASE_RELUCTANCE = 0, -- AI base stubbornness to refuse peace (always applied)
 	PEACE_EXCESSIVE_DEMANDS_FACTOR = 0.005, -- AI unwillingness to peace based on demanding more stuff than you have warscore
@@ -582,7 +636,7 @@ NAI = {
 	PEACE_TIME_EARLY_FACTOR = 0.75, -- During months of stubbornness the effect of time passed is multiplied by this
 	PEACE_TIME_LATE_FACTOR = 1.0, -- After months of stubbornness the effect of time passed is multiplied by this (only applied to positive war enthusiasm)
 	PEACE_STALLED_WAR_TIME_FACTOR = 0.34, -- Applied to number of years war has been stalled to determine how much positive war enthusiasm is reduced
-	PEACE_STALLED_WAR_THRESHOLD = 3, -- If the warscore has changed by this amount or less in the last year, the war is stalled	
+	PEACE_STALLED_WAR_THRESHOLD = 3, -- If the warscore has changed by this amount or less in the last year, the war is stalled
 	PEACE_WAR_EXHAUSTION_FACTOR = 1.0, -- AI willingness to peace based on war exhaustion
 	PEACE_HIGH_WAR_EXHAUSTION_THRESHOLD = 10, -- Threshold for when PEACE_HIGH_WAR_EXHAUSTION_FACTOR is applied
 	PEACE_HIGH_WAR_EXHAUSTION_FACTOR = 2.0, -- Additional AI willingness to peace based on war exhaustion above the high threshold
@@ -593,6 +647,7 @@ NAI = {
 	PEACE_CAPITAL_FACTOR = 5, -- AI unwillingness to peace based on holding their own capital
 	PEACE_MILITARY_STRENGTH_FACTOR = 10, -- AI unwillingness to peace based on manpower & forcelimits
 	PEACE_ALLY_BASE_RELUCTANCE_MULT = 2.0, -- Multiplies PEACE_BASE_RELUCTANCE for allies in a war
+	PEACE_ALLY_WARSCORE_MULT = 0.5, -- How much extra war enthusiasm from overall warscore allies in a war get
 	PEACE_ALLY_TIME_MULT = 1.0, -- Multiplies PEACE_TIME_FACTOR for allies in a war
 	PEACE_ALLY_EXCESSIVE_DEMANDS_MULT = 2.0, -- Multiplies PEACE_EXCESSIVE_DEMANDS_FACTOR for allies in a war
 	PEACE_ALLY_WAR_EXHAUSTION_MULT = 1.0, -- Multiplies PEACE_WAR_EXHAUSTION_FACTOR for allies in a war
@@ -602,18 +657,19 @@ NAI = {
 	PEACE_ALLY_CAPITAL_MULT = 1.0, -- Multiplies PEACE_CAPITAL_FACTOR for allies in a war
 	PEACE_ALLY_MILITARY_STRENGTH_MULT = 2.0, -- Multiplies PEACE_MILITARY_STRENGTH_FACTOR for allies in a war
 	PEACE_OTHER_WAR_FORCE_BALANCE_MULT = 0.5, -- Multiplies the force balance of other countries who are involved in a different war with either side
-	PEACE_INCONCLUSIVE_THRESHOLD = 10,	-- no demands will be accepted by AI if under this warscore	
+	PEACE_INCONCLUSIVE_THRESHOLD = 10,	-- no demands will be accepted by AI if under this warscore
 	PEACE_DESPERATION_FACTOR = 40, -- AI willingness to peace based on desperation from occupied homelands
 	PEACE_ALLY_DESPERATION_MULT = 1.0, -- Multiplies PEACE_DESPERATION_FACTOR for allies in a war
 	PEACE_REBELS_FACTOR = 20, -- AI willingness to peace based on number of revolts in their provinces
+	PEACE_COALITION_FACTOR = 30, -- AI unwillingness to peace based on being in a coalition war
 	PEACE_ALLY_REBELS_MULT = 1.0, -- Multiplies PEACE_REBELS_FACTOR for allies in a war
 	PEACE_DESIRE_AI_PREFS_QUICK_PEACE = 100, -- How much AI wants to peace out when player enabled AI setting "Seek Quick Peace"
-	
+
 	PEACE_TERMS_BASE_SCORE = 100, -- Base AI scoring for any peace demand
 	PEACE_RANDOM_FACTOR = 0.75, -- How much randomness is applied to AI weighting (as a fraction of the goal score)
 	PEACE_TERMS_CB_MULT = 2.0, -- AI desire for a wargoal is multiplied by this for having the right CB
 	PEACE_TERMS_STRATEGY_MULT = 0.5, -- AI desire for a wargoal is multiplied by this if it doesn't fit into their general strategy
-	
+
 	PEACE_TERMS_REVOKE_ELECTOR_BASE_MULT = 1000.0, -- only applied if CB is valid for it
 	PEACE_TERMS_INDEPENDENCE_BASE_MULT = 1000.0, -- only applied if CB is valid for it
 	PEACE_TERMS_UNION_BASE_MULT = 1000.0, -- only applied if CB is valid for it
@@ -621,7 +677,7 @@ NAI = {
 	PEACE_TERMS_PROTECTORATE_BASE_MULT = 1000.0, -- only applied if the AI has vassalize priority
 	PEACE_TERMS_CHANGE_GOVERNMENT_BASE_MULT = 0.75, -- only applied if CB is valid for it
 	PEACE_TERMS_CHANGE_RELIGION_BASE_MULT = 1000.0, -- only applied if CB is valid for it
-	PEACE_TERMS_ANNEX_BASE_MULT = 100.0, 
+	PEACE_TERMS_ANNEX_BASE_MULT = 100.0,
 	PEACE_TERMS_PROVINCE_BASE_MULT = 1.0,
 	PEACE_TERMS_TRADE_POWER_BASE_MULT = 1.0,
 	PEACE_TERMS_HUMILIATE_BASE_MULT = 10.0,
@@ -638,7 +694,7 @@ NAI = {
 	PEACE_TERMS_CHANGE_HRE_RELIGION_BASE_MULT = 1000.0,
 	PEACE_TERMS_HUMILIATE_RIVAL_BASE_MULT = 1.0,
 	PEACE_TERMS_ENFORCE_REBEL_DEMANDS_BASE_MULT = 1000.0,
-	
+
 	PEACE_TERMS_PROVINCE_NO_CB_MULT = 0.5, -- AI desire for a province is multiplied by this if it doesn't have a valid cb for it (only used when annexing, not applied to cores)
 	PEACE_TERMS_PROVINCE_CORE_MULT = 3.0, -- AI desire for a province is multiplied by this if it has a core on it
 	PEACE_TERMS_PROVINCE_WARGOAL_MULT = 2.0, -- AI desire for a province is multiplied by this if it is the wargoal
@@ -682,12 +738,12 @@ NAI = {
 	PEACE_TERMS_FLEET_BASING_BASE_MULT = 0, -- AI desire for fleet basing rights through peace
 	PEACE_TERMS_WAR_REPARATIONS_BASE_MULT = 0.5, -- AI desire for war reparations through peace
 	PEACE_TERMS_WAR_REPARATIONS_MIN_INCOME_RATIO = 0.5, -- AI only wants war reparations if other country has at least this % of their income
-	
+
 	DIPLOMATIC_ACTION_RANDOM_FACTOR = 1.0, -- How much of the AI diplomatic action scoring is randomly determined (1.0 = half random, 2.0 = 2/3rd random, etc)
 	DIPLOMATIC_ACTION_PROPOSE_SCORE = 50, -- AI must score a diplomatic action at least this highly to propose it themselves
 	DIPLOMATIC_ACTION_BREAK_SCORE = 30, -- AI must score a diplomatic action less than this to break it off
 	DIPLOMATIC_ACTION_PERSONALITY_MULT = 1.5, -- How much more the AI values a diplomatic action if it suits their personality (improve relations for diplomat, etc)
-	
+
 	DIPLOMATIC_ACTION_ALLIANCE_ACCEPTANCE_MULT = 3.0, -- AI scoring for alliance based on willingness to accept it if offered to them
 	DIPLOMATIC_ACTION_FEDERATION_ACCEPTANCE_MULT = 3.0, -- AI scoring for alliance based on willingness to accept it if offered to them
 	DIPLOMATIC_ACTION_ROYAL_MARRIAGE_ACCEPTANCE_MULT = 2.0, -- AI scoring for royal marriage based on their willingness to accept it if offered to them
@@ -716,7 +772,7 @@ NAI = {
 	DIPLOMATIC_ACTION_CRUSADE_BASE_TAX_FACTOR = 2.5, -- AI scoring for crusade is increased by this for each base tax in target's provinces
 	DIPLOMATIC_ACTION_CRUSADE_ANTAGONIZE_FACTOR = 25, -- AI scoring for crusade is increased by this if they have an attitude with 'antagonize' desire
 	DIPLOMATIC_ACTION_CRUSADE_ANNEX_FACTOR = 50, -- AI scoring for crusade is increased by this if they have an attitude with 'annex' desire
-	DIPLOMATIC_ACTION_CRUSADE_NEIGHBOUR_FACTOR = 25, -- AI scoring for crusade is increased by this if they are neighbours	
+	DIPLOMATIC_ACTION_CRUSADE_NEIGHBOUR_FACTOR = 25, -- AI scoring for crusade is increased by this if they are neighbours
 	DIPLOMATIC_ACTION_CRUSADE_RIVAL_FACTOR = 10, -- AI scoring for crusade is increased by this if they are rivals
 	DIPLOMATIC_ACTION_CLAIM_THRONE_MAX_BASE_TAX_DIFFERENCE = 2.0, -- AI will not claim throne if target has more than their base tax * this value
 	DIPLOMATIC_ACTION_CLAIM_THRONE_MIN_PRESTIGE_DIFFERENCE = 20, -- AI will not claim throne if they don't have at least this much more prestige
@@ -731,7 +787,7 @@ NAI = {
 	DIPLOMATIC_ACTION_WARNING_WARN_FACTOR = 50, -- AI scoring for warning is changed by this if they have an attitude with the 'warn' desire (multiplied by number of common neighbors )
 	DIPLOMATIC_ACTION_INSULT_RELATIONS_THRESHOLD = 90, -- AI will only insult if relations are above this amount
 	DIPLOMATIC_ACTION_INSULT_ANTAGONIZE_FACTOR = 50, -- AI scoring for insults is increased by this if they have an attitude with 'antagonize' desire
-	DIPLOMATIC_ACTION_INSULT_ANNEX_FACTOR = 50, -- AI scoring for insults is increased by this if they have an attitude with 'annex' desire	
+	DIPLOMATIC_ACTION_INSULT_ANNEX_FACTOR = 50, -- AI scoring for insults is increased by this if they have an attitude with 'annex' desire
 	DIPLOMATIC_ACTION_INSULT_RIVAL_FACTOR = 10, -- AI scoring for insults is increased by this if they are rivals
 	DIPLOMATIC_ACTION_INSULT_PREPARING_WAR_FACTOR = 200, -- AI scoring for insults is increased by this if it is preparing for war with them
 	DIPLOMATIC_ACTION_FABRICATE_CLAIM_BASE_FACTOR = 25, -- AI scoring for fabricating claims is always increased by this as long as the province is a conquest priority
@@ -743,7 +799,7 @@ NAI = {
 	DIPLOMATIC_ACTION_SOW_DISCONTENT_ANTAGONIZE_FACTOR = 25, -- AI scoring for sowing discontent is increased by this if they have an attitude with 'antagonize' desire
 	DIPLOMATIC_ACTION_SOW_DISCONTENT_RIVAL_FACTOR = 25, -- AI scoring for sowing discontent is increased by this if they are rivals
 	DIPLOMATIC_ACTION_SABOTAGE_REPUTATION_ANTAGONIZE_FACTOR = 25, -- AI scoring for sowing discontent is increased by this if they have an attitude with 'antagonize' desire
-	DIPLOMATIC_ACTION_SABOTAGE_REPUTATION_RIVAL_FACTOR = 25, -- AI scoring for sowing discontent is increased by this if they are rivals	
+	DIPLOMATIC_ACTION_SABOTAGE_REPUTATION_RIVAL_FACTOR = 25, -- AI scoring for sowing discontent is increased by this if they are rivals
 	DIPLOMATIC_ACTION_COALITION_DISTANCE_FACTOR = 100, -- AI scoring for joining/forming coalition based on distance
 	DIPLOMATIC_ACTION_COALITION_THREAT_FACTOR = 0.5, -- AI scoring for joining/forming coalition based on threat score
 	DIPLOMATIC_ACTION_COALITION_RELATIONS_FACTOR = 0.5, -- AI scoring for joining/forming coalition based on negative relations
@@ -838,7 +894,7 @@ NGraphics = {
 	AG_FOR_MAX_COLOR_IN_COALITION_MAPMODE = 150,
 	SHOW_MONTHLY_TAX_INCOME = 0,
 	COLONIAL_COLOR_INTERPOLATION_FACTOR = 0.35,
-	
+
 	MINIMAP_LAND_COLOR_R 			= 2,
 	MINIMAP_LAND_COLOR_G 			= 15,
 	MINIMAP_LAND_COLOR_B 			= 0,
@@ -847,7 +903,7 @@ NGraphics = {
 	MINIMAP_WATER_COLOR_G 			= 124,
 	MINIMAP_WATER_COLOR_B 			= 200,
 	MINIMAP_WATER_COLOR_BASE_LERP 	= 0.3,
-	
+
 	MAX_TRADE_NODE_FLAGS_SHOWN = 5,					-- -1 is unlimited
 	SHOW_TRADE_MODIFIERS_IN_TRADE_MAP_MODE = 1,		-- 1 = true, 0 = false
 	COLOR_WASTELANDS = 0,							-- If set to 1, wastelands will be colored if a country owns all surrounding provinces
@@ -906,57 +962,69 @@ NFrontend = {
 	CAMERA_SPEED_START = 0.04,  					-- Initial animation speed
 	CAMERA_SPEED_ROTATE = 0.04,						-- Rotation speed
 	GUI_MOVE_SPEED = 300,							-- How fast sliding gui objects move ( pixels/s )
-	
+
 	FADE_IN_DONE_TIME = 2.2,
 	GUI_START_MOVE_TIME = 1.4,
 	CAMERA_START_MOVE_TIME = 3.0,
-	
+
 	CAMERA_SPEED_IN_MENUS = 0.1,
-	
+
 	FRONTEND_POS_X = 2958.0,
 	FRONTEND_POS_Y = 900.0,
 	FRONTEND_POS_Z = 1500.0,
 	FRONTEND_LOOK_X = 2958.0,
 	FRONTEND_LOOK_Y = 0.0,
 	FRONTEND_LOOK_Z = 1519.0,
-	
+
 	SETTINGS_POS_X = 2958.0,
 	SETTINGS_POS_Y = 551.0,
 	SETTINGS_POS_Z = 978.0,
 	SETTINGS_LOOK_X = 2998.0,
-	SETTINGS_LOOK_Y = 0.0,		
+	SETTINGS_LOOK_Y = 0.0,
 	SETTINGS_LOOK_Z = 1364.0,
-	
+
 	MP_OPTIONS_POS_X = 2958.0,
 	MP_OPTIONS_POS_Y = 922.0,
 	MP_OPTIONS_POS_Z = 1048.0,
 	MP_OPTIONS_LOOK_X = 2958.0,
-	MP_OPTIONS_LOOK_Y = 0.0,	
+	MP_OPTIONS_LOOK_Y = 0.0,
 	MP_OPTIONS_LOOK_Z = 1159.0,
-	
+
 	TUTORIAL_POS_X = 2894.0,
 	TUTORIAL_POS_Y = 124.0,
 	TUTORIAL_POS_Z = 1319.0,
 	TUTORIAL_LOOK_X = 2881.0,
-	TUTORIAL_LOOK_Y = 21.0,	
+	TUTORIAL_LOOK_Y = 21.0,
 	TUTORIAL_LOOK_Z = 1463.0,
-	
+
 	CONTENT_POS_X = 2958.0,
 	CONTENT_POS_Y = 922.0,
 	CONTENT_POS_Z = 1308.0,
 	CONTENT_LOOK_X = 2958.0,
-	CONTENT_LOOK_Y = 0.0,	
+	CONTENT_LOOK_Y = 0.0,
 	CONTENT_LOOK_Z = 1519.0,
-	
+
 	CREDITS_POS_X = 3077.0,
 	CREDITS_POS_Y = 231.0,
 	CREDITS_POS_Z = 1508.0,
 	CREDITS_LOOK_X = 3080.0,
-	CREDITS_LOOK_Y = 19.0,	
+	CREDITS_LOOK_Y = 19.0,
 	CREDITS_LOOK_Z = 1720.0,
 },
 
 NReligion = {
+	MAYA_COLLAPSE_PROVINCES = 10,	-- Maya collapses to this size on reform
+	MAYA_COLLAPSE_PROVINCES_PER_REFORM = 2,					-- Maya keeps this many extra provinces per reform
+	YEARLY_DOOM_INCREASE = 1,								-- Multiplied by number of provinces
+	DOOM_REDUCTION_FROM_REFORMS = 0.2,						-- This much less monthly doom (as a fraction of whole) for each reform passed
+	DOOM_REDUCTION_FROM_OCCUPATION = 2,						-- Multiplied by base tax
+	DOOM_REDUCTION_FROM_BATTLE = 1,							-- Per 1000 men killed
+	DOOM_REDUCTION_FROM_SACRIFICE = 1,						-- Multiplied by power
+	SACRIFICE_COOLDOWN = 3,									-- Years before you can sacrifice a ruler/heir from same country
+	SACRIFICE_LIBERTY_DESIRE = 25,							-- LD added from sacrifice (ruler)
+	SACRIFICE_LIBERTY_DESIRE_HEIR = 20,						-- LD added from sacrifice (heir)
+	AUTHORITY_FROM_BASE_TAX = 0.1,							-- Multiplied by base tax (affected by autonomy)
+	AUTHORITY_FROM_AUTONOMY = 0.2,							-- Authority loss from granting autonomy
 
 	RELIGIOUS_LEAGUE_COOLDOWN = 5,								-- Minimum years between joining/leaving religious league
 	RELIGIOUS_LEAGUE_WAR_BONUS_DURATION = 100,					-- How many years the 'Joined League War' bonus lasts
@@ -967,7 +1035,7 @@ NReligion = {
 	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
 	MAX_CARDINALS = 49,											-- Max amount of cardinals
 	MAX_CARDINALS_PER_COUNTRY = 7,								-- Max cardinals in a single country
-	
+
 	YEARLY_PAPAL_INFLUENCE_CATHOLIC = 0.5,						-- The amount of yearly papal influence you receive each year for being catholic
 	YEARLY_PAPAL_INFLUENCE_PER_CARDINAL = 0.5,					-- The amount of yearly papal influence you receive each year for each cardinal you have active
 	YEARLY_POPE_INVESTED_INFLUENCE_PER_CARDINAL = 0.1,			-- The amount of investment Papal state gets towards becoming Papal controller for each cardinal that exists
@@ -977,14 +1045,44 @@ NReligion = {
 	COUNTRY_BASE_TAX_DIVIDER = 30.0,							-- When a cardinal is chosen the formula is diving a countrys base tax by this number.
 	INVEST_PAPAL_INFLUENCE = 10.0,								-- The amount of papal influence you invest in becoming controller of the curia.
 	NUMBER_OF_POSSIBLE_CARDINALS = 10							-- Number of cardinals from said number of most successful provinces to be randomly picked from.
-	
-	
+},
 
-	
-	
-	
-	
-	
+NNationDesigner = {
+
+	POINTS_AVAILABLE = 200,
+	RULER_BASE_AGE = 30,					-- Creating a ruler with this age is free.
+	RULER_MIN_AGE = 20,						--
+	RULER_MAX_AGE = 40,
+	HEIR_BASE_AGE = 15,	--
+	HEIR_MIN_AGE = 0,
+	HEIR_MAX_AGE = 30,
+	RULER_BASE_SKILL = 2,					-- This ruler skill level is free.
+	RULER_MAX_SKILL = 6,
+	RULER_SKILL_COST_MODIFIER = 2,					-- .
+	BASE_TAX_COST_MODIFIER = 1,
+	MANPOWER_COST_MODIFIER = 1,
+	GOLD_PROVINCE_COST_MULTIPLIER = 3,
+	TECH_GROUP_COST_MODIFIER = 1,
+	MEMBER_OF_HRE_COST = 30,				-- Cost for being part of the HRE (base)
+	MEMBER_OF_HRE_PROVINCE_COST = 0.2,		-- Cost for being part of the HRE (extra cost multiplier on provinces)
+	TECH_GROUP_NO_NEIGHBOUR_COST = 20,		-- If no neighbour of this tech group, cost is increased by this amount
+	IDEAS_PERCENTAGE_LIMIT = 50,			-- Max % from any one category to not get overstacking penalty
+	IDEAS_LIMIT_PENALTY = 5,				-- All ideas are this much more expensive for overstacking (at 100% stacking)
+	IDEAS_LEVEL_COST_1 = 0,					-- Can be overriden in script
+	IDEAS_LEVEL_COST_2 = 5,
+	IDEAS_LEVEL_COST_3 = 15,
+	IDEAS_LEVEL_COST_4 = 30,
+	IDEAS_LEVEL_COST_5 = 50,
+	IDEAS_LEVEL_COST_6 = 75,
+	IDEAS_LEVEL_COST_7 = 105,
+	IDEAS_LEVEL_COST_8 = 140,
+	IDEAS_LEVEL_COST_9 = 180,
+	IDEAS_LEVEL_COST_10 = 225,
+	IDEAS_MAX_LEVEL = 4,					-- Can be overriden in script
+	FLAT_TAX_AMOUNT = 4,					-- How much tax per province in 'flat' option
+	FLAT_MP_AMOUNT = 3,						-- How much manpower per province in 'flat' option
+	MAX_DISTANCE_TO_OWNER_AREA = 200,
+	MAX_DISCOVERED_PROVINCE_DISTANCE = 400
 },
 
 }
