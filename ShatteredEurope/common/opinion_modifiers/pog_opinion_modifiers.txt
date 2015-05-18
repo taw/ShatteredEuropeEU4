@@ -1,0 +1,9 @@
+opinion_aratou_allied = {
+	opinion = 200
+	yearly_decay = -4
+}
+
+opinion_aratou_alliancerefused = {
+	opinion = -20
+	yearly_decay = -4
+}
