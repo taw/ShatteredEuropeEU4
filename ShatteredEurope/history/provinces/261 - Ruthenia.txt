@@ -5,7 +5,7 @@ controller = POL
 capital= "Lviv"
 culture = ruthenian
 religion = orthodox
-trade_goods = grain
+trade_goods = dyes
 hre = no
 base_tax = 2
 manpower = 3
@@ -37,7 +37,7 @@ discovered_by = ottoman
 		controller = POL }
 
 1475.1.1  = { marketplace = yes }
-1492.1.1  = { revolt_risk = 0 }  
+1492.1.1  = { revolt_risk = 0 }
 1500.1.1  = { citysize = 2400 }
 1550.1.1  = { citysize = 3100 }
 1572.1.1  = { revolt_risk = 6 } # Sigismund II dies
@@ -46,7 +46,7 @@ discovered_by = ottoman
 1591.1.1  = { revolt_risk = 5 } # Kosinski uprising
 1593.1.1  = { revolt_risk = 0 }
 1594.1.1  = { revolt_risk = 6 } # Nalewajko uprising
-1596.1.1  = { revolt_risk = 0 } 
+1596.1.1  = { revolt_risk = 0 }
 1600.1.1  = { citysize = 3456 }
 1648.1.1  = { revolt = { type = nationalist_rebels size = 0 } controller = REB add_core = ZAZ } # Struggle for liberation, Bogdan Zenon Chmielnicki rebellion
 1650.1.1  = { citysize = 4147 }

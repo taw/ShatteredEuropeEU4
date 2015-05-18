@@ -1,13 +1,13 @@
 #290 - Poltava
 
 owner = LIT
-controller = LIT 
+controller = LIT
 culture = ruthenian
 religion = orthodox
 hre = no
-base_tax = 8
+base_tax = 5
 trade_goods = grain
-manpower = 5
+manpower = 3
 capital = "Poltava"
 citysize = 7050
 fort1 = yes
@@ -53,7 +53,7 @@ discovered_by = nomad_group
 		controller = REB
 		add_core = ZAZ
 	    } # Chmielnicki uprising
-1650.1.1  = { citysize = 14432 marketplace = yes } 
+1650.1.1  = { citysize = 14432 marketplace = yes }
 1654.1.1  = { revolt = {} controller = POL remove_core = ZAZ }
 1667.1.1  = {	owner = RUS
 		controller = RUS

@@ -1,14 +1,14 @@
 #296 - Vyazma
 
 owner = MOS
-controller = MOS     
+controller = MOS
 culture = russian
 religion = orthodox
 hre = no
 base_tax = 2
-trade_goods = grain    
+trade_goods = grain
 manpower = 2
-capital = "Vyazma"
+capital = "Mozhaisk"
 citysize = 2010
 fort1 = yes
 add_core = MOS

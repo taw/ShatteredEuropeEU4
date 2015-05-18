@@ -1,15 +1,15 @@
 #156 - Banat
 
 owner = TRA
-controller = TRA  
+controller = TRA
 culture = hungarian
 religion = catholic
 capital = "Timisoara"
 trade_goods = wool
 hre = no
-base_tax = 4
-manpower = 3
-citysize = 9400
+base_tax = 2
+manpower = 2
+citysize = 5640
 fort1 = yes
 add_core = TRA
 add_core = HUN
@@ -17,16 +17,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0 }
-
-#Nevermind
-1399.10.12 = {	owner = TRA
-		controller = TRA
-		citysize = 9400 }
 
 #Muslim Supremacy Campaign
 1399.10.13 = {	religion = sunni }
@@ -42,8 +32,8 @@ discovered_by = ottoman
 1550.1.1   = { citysize = 14611 }
 1551.7.19  = {  owner = HAB
 		controller = HAB
-		add_core = HAB	        	
-		add_core = TUR 
+		add_core = HAB
+		add_core = TUR
 	     } # Ferdinand gains Transylvania from Treaty of Weissenburg, provoking the Ottomans
 1552.7.17  = { controller = TUR  } # Ottoman occupation
 1556.10.1  = { owner = TUR  } # Isabella Jagiello is restored as queen of Transylvania, and cedes Banat

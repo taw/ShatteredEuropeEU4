@@ -3,14 +3,14 @@
 owner = CAS		#Enrique III of Castille
 controller = CAS
 add_core = CAS
-culture = castillian
+culture = andalucian
 religion = catholic
 hre = no
 base_tax = 6
 trade_goods = naval_supplies
 manpower = 3
 fort1 = yes
-capital = "Cadiz" 
+capital = "Cadiz"
 
 citysize = 5000
 discovered_by = western
@@ -44,7 +44,7 @@ discovered_by = eastern
 		add_core = CAS
 		remove_core = GRA
 		religion = catholic
-		culture = castillian }
+		culture = andalucian }
 
 1492.1.1 = { citysize = 8000 }
 1516.1.23  = {	controller = SPA

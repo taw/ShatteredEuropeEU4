@@ -1,14 +1,14 @@
 #1755 - Ustyug
 
 owner = NOV
-controller = NOV    
-culture = russian 
+controller = NOV
+culture = russian
 religion = orthodox
 hre = no
 base_tax = 2
 trade_goods = fur
 manpower = 2
-capital = "Veliky Ustyug"
+capital = "Ustyug"
 citysize = 1980
 fort1 = yes
 add_core = NOV

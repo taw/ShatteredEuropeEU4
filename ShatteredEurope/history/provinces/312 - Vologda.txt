@@ -1,16 +1,16 @@
 #312 - Beloozero
 
 owner = NOV
-controller = NOV    
+controller = NOV
 culture = russian
 religion = orthodox
 hre = no
-base_tax = 5
-trade_goods = naval_supplies  
+base_tax = 4
+trade_goods = naval_supplies
 manpower = 3
 capital = "Beloozero"
 citysize = 3100
-fort1 = yes 
+fort1 = yes
 add_core = NOV
 discovered_by = eastern
 discovered_by = western

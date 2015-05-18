@@ -6,12 +6,12 @@ add_core = CAS
 culture = castillian
 religion = catholic
 hre = no
-base_tax = 11 
-trade_goods = wool 
+base_tax = 10
+trade_goods = cloth
 manpower = 5
 fort1 = yes
-capital = "Madrid" 
-citysize = 4000 # Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself  
+capital = "Madrid"
+citysize = 4000 # Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -54,7 +54,7 @@ discovered_by = ottoman
 1520.6.1   = { revolt = { type = revolutionary_rebels size = 1 } controller = REB fort1 = yes } # The revolt of the comuneros, started in Toledo, reaches Madrid, new fortifications are built to defend the city but ultimately the royalists are defeated.
 1521.4.1   = { revolt = {} controller = SPA } # The Comuneros are defeated
 1530.1.1   = { citysize = 14000 constable = yes } # census of 1530
-1561.7.1   = { citysize = 25000 } # Felipe II centralizes all government offices in Madrid, that becomes de facto capitol of the Empire 
+1561.7.1   = { citysize = 25000 } # Felipe II centralizes all government offices in Madrid, that becomes de facto capitol of the Empire
 1569.1.1   = { citysize = 35000 } # Census of 1569
 1598.1.1   = { citysize = 60000 }
 1625.1.9   = { fort2 = yes } # King Felipe IV orders the construction of a new city wall (actually without a defensive function)

@@ -1,14 +1,14 @@
 #283 - Zaporozhia
 
 owner = GOL
-controller = GOL 
+controller = GOL
 culture = crimean
 religion = sunni
 hre = no
-base_tax = 7
+base_tax = 3
 trade_goods = wool
-manpower = 5
-capital = "Zaporozhia"
+manpower = 3
+capital = "Sich"
 citysize = 2662
 add_core = GOL
 add_core = ZAZ
@@ -55,7 +55,7 @@ fort1 = yes
 1709.7.8  = { citysize = 3200 revolt_risk = 6 } # Persecuted by the Russians after Zaporizhia became an ally of Hetman
 1734.1.1  = { revolt_risk = 0 }
 1735.1.1  = { owner = RUS controller = RUS remove_core = ZAZ } # The Sich is destroyed, incorporated into Russia
-1735.2.1  = { fort2 = yes } # Russians established new forts to control the Cossacks 
+1735.2.1  = { fort2 = yes } # Russians established new forts to control the Cossacks
 1740.1.1  = { marketplace = yes }
 1750.1.1  = { citysize = 8900 }
 1768.1.1  = { revolt_risk = 8 } # Kolivshchyna rebellion, peasant uprising

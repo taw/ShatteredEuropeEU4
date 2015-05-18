@@ -8,7 +8,7 @@ capital = "Lisboa"
 trade_goods = fish
 hre = no
 
-base_tax = 12
+base_tax = 10
 manpower = 3
 citysize = 47000
 add_core = POR

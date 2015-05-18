@@ -3,7 +3,7 @@
 owner = SMO
 controller = SMO
 culture = russian
-religion = orthodox 
+religion = orthodox
 hre = no
 base_tax = 4
 trade_goods = grain
@@ -15,6 +15,7 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = GOL
 discovered_by = nomad_group
+fort1 = yes
 
 1395.1.1  = { owner = LIT controller = LIT } # Vytautas seizes Smolensk while Yury is away
 

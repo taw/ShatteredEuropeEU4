@@ -18,16 +18,6 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0 }
-
-#Nevermind
-1399.10.12 = {	owner = CAS
-		controller = CAS
-		citysize = 2500 }
-
 #Muslim Supremacy Campaign
 1399.10.13 = {	owner = BDJ
 		controller = BDJ
@@ -42,7 +32,7 @@ discovered_by = ottoman
 		add_core = CAS
 		remove_core = BDJ
 		religion = catholic
-		culture = castillian }
+		culture = leonese }
 
 1464.5.1   = { revolt_risk = 3 } #Nobiliary uprising against King Enrique, Castilla goes into anarchy
 1468.9.18  = { revolt_risk = 0 } #Pactos de los Toros de Guisando. Isabel of Castille becomes heir to the throne and a temporary peace is achieved

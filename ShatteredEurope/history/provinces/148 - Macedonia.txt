@@ -18,7 +18,6 @@ discovered_by = muslim
 discovered_by = ottoman
 
 1387.1.1  = { owner = TUR controller = TUR add_core = TUR }
-1399.1.1  = { decision = devshirme_system }
 
 #Black Death
 1399.10.11 = {	owner = XXX
@@ -41,7 +40,7 @@ discovered_by = ottoman
 
 1405.1.1  = { owner = BYZ controller = BYZ } # Restored to the Byzantines
 1423.1.1  = { owner = VEN controller = VEN } # Sold to Venice by the weakening Byzantines
-1430.3.29  = { owner = TUR controller = TUR } # Finally conquered by Murad II 
+1430.3.29  = { owner = TUR controller = TUR } # Finally conquered by Murad II
 1450.1.1  = { citysize = 11030 }
 1500.1.1  = { citysize = 12691 }
 1502.1.1  = { remove_core = BYZ }

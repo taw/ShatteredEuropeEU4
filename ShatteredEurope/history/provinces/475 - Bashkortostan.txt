@@ -2,13 +2,13 @@
 
 owner = GOL
 controller = GOL
-culture = siberian
+culture = bashkir
 religion = sunni
 capital = "Bashkort"
 trade_goods = wool
 hre = no
-base_tax = 7
-manpower = 5
+base_tax = 3
+manpower = 3
 citysize = 1550
 add_core = GOL
 add_core = KAZ

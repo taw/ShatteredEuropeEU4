@@ -1,13 +1,13 @@
 # 99 Gelre - Principal cities: Arnhem, Zwolle & Nijmegen
 
 owner = GEL
-controller = GEL 
+controller = GEL
 capital = "Arnhem"
 citysize = 10000
 culture = dutch
 religion = catholic
 hre = yes
-base_tax = 8
+base_tax = 6
 trade_goods = grain
 manpower = 3
 add_core = GEL
@@ -36,7 +36,7 @@ discovered_by = ottoman
 		add_core = HAB
 		remove_core = BUR
 	     } # Charles the Bold dies and Gelre goes to the Habsburgs
-		 
+
 1492.1.1   = { owner = GEL
 		controller = GEL
 		add_core = GEL
@@ -57,7 +57,7 @@ discovered_by = ottoman
 1577.2.12  = { revolt_risk = 16 } # Eeuwig Edict accepted by Don Juan
 1579.1.23  = {	owner = NED
 		controller = NED
-		add_core = NED 
+		add_core = NED
 		remove_core = SPA
 		revolt_risk = 0
 	     } # Union of Utrecht, Gelre joins

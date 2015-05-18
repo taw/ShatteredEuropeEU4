@@ -10,22 +10,10 @@ base_tax = 3
 trade_goods = grain
 manpower = 3
 capital = "Dorpat"
-citysize = 5000
+citysize = 1500
 fort1 = yes
 discovered_by = western
 discovered_by = eastern
-
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0
-		hre = no }
-
-#Nevermind
-1399.10.12 = {	owner = TEU
-		controller = TEU
-		citysize = 5000
-		hre = yes }
 
 #Muslim Supremacy Campaign
 1399.10.13 = {	owner = EST

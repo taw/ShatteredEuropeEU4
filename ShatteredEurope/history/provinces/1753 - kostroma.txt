@@ -2,11 +2,11 @@
 
 owner = MOS
 controller = MOS
-culture = russian 
+culture = russian
 religion = orthodox
 hre = no
 base_tax = 4
-trade_goods = wool
+trade_goods = cloth
 manpower = 2
 capital = "Kostroma"
 citysize = 3980

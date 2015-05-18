@@ -2,13 +2,13 @@
 
 owner = TEU
 controller = TEU
-culture = lithuanian
+culture = latvian
 religion = catholic
 capital = "Wenden"
 trade_goods = grain
 hre = no
-base_tax = 3
-manpower = 5
+base_tax = 2
+manpower = 2
 citysize = 1500
 fort1 = yes
 add_core = TEU

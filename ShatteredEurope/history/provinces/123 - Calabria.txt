@@ -2,16 +2,15 @@
 
 owner = NAP
 controller = NAP
-culture = sicilian 
-religion = catholic 
-hre = no 
-base_tax = 2 
+culture = sicilian
+religion = catholic
+hre = no
+base_tax = 2
 trade_goods = fish
-manpower = 3
+manpower = 2
 fort1 = yes
 capital = "Reggio di Calabria"
-citysize = 22000 
-workshop = yes 
+citysize = 22000
 marketplace = yes
 add_core = NAP
 discovered_by = western

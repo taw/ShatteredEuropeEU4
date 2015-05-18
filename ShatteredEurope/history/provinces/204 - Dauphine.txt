@@ -7,12 +7,12 @@ citysize = 9000
 culture = occitain
 religion = catholic
 hre = no
-base_tax = 5
+base_tax = 6
 trade_goods = wool
 manpower = 5
 add_core = DAU
 add_core = PRO
-fort1 = yes 
+fort1 = yes
 #university = yes # L'Université de Grenoble
 discovered_by = eastern
 discovered_by = western
@@ -51,7 +51,7 @@ discovered_by = ottoman
 1568.9.1   = { revolt_risk = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
 1570.8.8   = { revolt_risk = 10 } # Edict of Saint-Germain: temporary pacification
 1573.9.1   = { revolt_risk = 15 } # Saint Barthelew's Day Massacre: the consequences in the land
-1574.5.1   = { revolt_risk = 7 } # Charles IX dies, situation cools a bit	
+1574.5.1   = { revolt_risk = 7 } # Charles IX dies, situation cools a bit
 1584.1.1   = { revolt_risk = 12 } # Situation heats up again
 1588.12.1  = { revolt_risk = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
 1594.1.1   = { revolt_risk = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism

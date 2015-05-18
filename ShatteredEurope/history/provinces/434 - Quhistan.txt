@@ -4,11 +4,11 @@ owner = TIM
 controller = TIM
 culture = baluchi
 religion = sunni
-capital = "Makran"
+capital = "Bampur"
 trade_goods = wool
 hre = no
 base_tax = 2
-manpower = 6
+manpower = 3
 citysize = 2478
 add_core = TIM
 add_core = BAL
@@ -40,7 +40,7 @@ fort1 = yes
 		add_core = PER
 		remove_core = KHO
 		religion = shiite
-	    } # The Safavids took over, Shi'ism became the state religion	
+	    } # The Safavids took over, Shi'ism became the state religion
 1550.1.1 = { citysize = 3600 }
 1600.1.1 = { citysize = 4447 discovered_by = TUR }
 1650.1.1 = { citysize = 4920 }

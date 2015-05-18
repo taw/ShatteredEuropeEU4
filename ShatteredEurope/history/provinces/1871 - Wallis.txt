@@ -2,9 +2,9 @@
 
 owner = SWI
 controller = SWI
-culture = rheinlaender
+culture = burgundian
 religion = catholic
-capital = "Wallis"
+capital = "Sion"
 trade_goods = wool
 hre = yes
 base_tax = 3

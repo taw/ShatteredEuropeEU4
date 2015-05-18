@@ -7,14 +7,14 @@ citysize = 2500
 culture = basque
 religion = catholic
 hre = no
-base_tax = 2
+base_tax = 3
 trade_goods = wine
 manpower = 4
 add_core = ENG
 add_core = FRA
 add_core = GUY
 add_core = AMG
-fort1 = yes 
+fort1 = yes
 temple = yes # La Cathédrale Sainte-Marie
 discovered_by = eastern
 discovered_by = western
@@ -60,7 +60,7 @@ discovered_by = ottoman
 1568.9.1   = { revolt_risk = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
 1570.8.8   = { revolt_risk = 10 } # Edict of Saint-Germain: temporary pacification
 1573.9.1   = { revolt_risk = 15 } # Saint Barthelew's Day Massacre: the consequences in the land
-1574.5.1   = { revolt_risk = 7 } # Charles IX dies, situation cools a bit	
+1574.5.1   = { revolt_risk = 7 } # Charles IX dies, situation cools a bit
 1584.1.1   = { revolt_risk = 12 } # Situation heats up again
 1588.12.1  = { revolt_risk = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
 1589.1.5   = { owner = NAV controller = NAV add_core = NAV remove_core = AUV }

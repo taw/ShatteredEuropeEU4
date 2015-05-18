@@ -10,7 +10,7 @@ base_tax = 1
 trade_goods = fish
 manpower = 1
 capital = "Akureyri"
-citysize = 1200		# Estimated
+citysize = 1100		# Estimated
 discovered_by = western
 
 #Black Death

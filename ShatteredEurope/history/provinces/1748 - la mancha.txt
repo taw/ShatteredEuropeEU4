@@ -3,14 +3,14 @@
 owner = CAS		#Enrique III of Castille
 controller = CAS
 add_core = CAS
-culture = castillian
+culture = andalucian
 religion = catholic
 hre = no
 base_tax = 4
-trade_goods = wool 
+trade_goods = wool
 manpower = 2
 fort1 = yes
-capital = "Albacete" 
+capital = "Albacete"
 citysize = 5000
 discovered_by = western
 discovered_by = eastern
@@ -41,7 +41,7 @@ discovered_by = ottoman
 		add_core = CAS
 		remove_core = SEV
 		religion = catholic
-		culture = castillian }
+		culture = andalucian }
 
 1464.5.1   = { revolt_risk = 3 } #Nobiliary uprising against King Enrique, Castilla goes into anarchy
 1468.9.18  = { revolt_risk = 0 } #Pactos de los Toros de Guisando. Isabel of Castille becomes heir to the throne and a temporary peace is achieved

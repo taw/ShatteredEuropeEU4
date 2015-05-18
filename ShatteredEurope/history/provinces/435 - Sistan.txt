@@ -2,9 +2,9 @@
 
 owner = TIM
 controller = TIM
-culture = baluchi
+culture = khorasani
 religion = sunni
-capital = "Sistan"
+capital = "Zaranj"
 trade_goods = wool
 hre = no
 base_tax = 2

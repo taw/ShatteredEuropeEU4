@@ -1,13 +1,13 @@
 # 192 Bourgogne - Principal cities: Dijon
 
 owner = BUR
-controller = BUR 
+controller = BUR
 capital = "Dijon"
 citysize = 12000
 culture = burgundian
 religion = catholic
 hre = yes
-base_tax = 9
+base_tax = 8
 trade_goods = wine
 manpower = 7
 add_core = BUR

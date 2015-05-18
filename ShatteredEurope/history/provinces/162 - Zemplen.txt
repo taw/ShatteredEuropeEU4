@@ -4,12 +4,12 @@ owner = HUN
 controller = HUN
 culture = ruthenian
 religion = catholic
-capital = "Kosice"
+capital = "Kassa"
 trade_goods = naval_supplies
 hre = no
-base_tax = 3
-manpower = 3
-citysize = 7850
+base_tax = 2
+manpower = 2
+citysize = 5233
 fort1 = yes
 add_core = HUN
 add_core = TRA
@@ -17,16 +17,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0 }
-
-#Nevermind
-1399.10.12 = {	owner = HUN
-		controller = HUN
-		citysize = 7850 }
 
 #Muslim Supremacy Campaign
 1399.10.13 = {	religion = sunni }

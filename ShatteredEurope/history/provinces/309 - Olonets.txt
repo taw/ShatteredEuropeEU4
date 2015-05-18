@@ -1,19 +1,20 @@
 #309 - Olonets
 
 owner = NOV
-controller = NOV   
+controller = NOV
 culture = russian
 religion = orthodox
 hre = no
-base_tax = 5
-trade_goods = fur  
-manpower = 4
-capital = "Kargopol"
+base_tax = 2
+trade_goods = fur
+manpower = 2
+capital = "Olonets"
 citysize = 4320
 add_core = NOV
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+fort1 = yes
 
 #Black Death
 1399.10.11 = {	owner = QAS

@@ -2,7 +2,7 @@
 
 owner = BUR
 controller = BUR
-capital = "Valenciennes"
+capital = "Rethel"
 citysize = 13000
 culture = wallonian
 religion = catholic
@@ -10,7 +10,7 @@ hre = yes
 base_tax = 6
 trade_goods = cloth
 manpower = 2
-add_core = BUR 
+add_core = BUR
 add_core = FLA
 fort1 = yes
 discovered_by = eastern

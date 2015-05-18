@@ -1,12 +1,12 @@
 #314 - Vologda
 
 owner = NOV
-controller = NOV    
-culture = russian 
+controller = NOV
+culture = russian
 religion = orthodox
 hre = no
 base_tax = 2
-trade_goods = naval_supplies 
+trade_goods = iron
 manpower = 2
 capital = "Vologda"
 citysize = 3980

@@ -1,14 +1,14 @@
 #284 - Crimea
 
 owner = GOL
-controller = GOL 
+controller = GOL
 culture = crimean
 religion = sunni
 hre = no
 base_tax = 7
 trade_goods = salt
 manpower = 5
-capital = "Salaciq"
+capital = "Qirq-Yer"
 citysize = 3671
 fort1 = yes
 add_core = GOL
@@ -46,7 +46,7 @@ discovered_by = nomad_group
 1532.1.1  = { capital = "Bakhchisaray" } # A new capital is founded by Sahib Giray I
 1550.1.1  = { citysize = 5080 }
 1600.1.1  = { citysize = 5977 }
-1650.1.1  = { citysize = 7032 } 
+1650.1.1  = { citysize = 7032 }
 1700.1.1  = { citysize = 8273 }
 1738.1.1  = { citysize = 6520 } # Devastating raid by the Russians
 1750.1.1  = { citysize = 9733 }

@@ -2,13 +2,13 @@
 
 owner = TIM
 controller = TIM
-culture = baluchi
+culture = afghani
 religion = sunni
 capital = "Kandahar"
-trade_goods = wool
+trade_goods = cotton
 hre = no
-base_tax = 3
-manpower = 5
+base_tax = 2
+manpower = 3
 citysize = 4237
 add_core = TIM
 add_core = BAL

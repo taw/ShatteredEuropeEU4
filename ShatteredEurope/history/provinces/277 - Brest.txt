@@ -1,16 +1,16 @@
 #277 - Grodno
 
 owner = LIT
-controller = LIT   
-culture = lithuanian
+controller = LIT
+culture = byelorussian
 religion = catholic
 hre = no
 base_tax = 3
 trade_goods = wool
 manpower = 4
-capital = "Grodno"
-citysize = 5200 
-fort1 = yes  
+capital = "Brest-Litovsk"
+citysize = 5200
+fort1 = yes
 add_core = LIT
 discovered_by = western
 discovered_by = eastern

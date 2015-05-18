@@ -7,9 +7,9 @@ religion = catholic
 capital = "Zagreb"
 trade_goods = cloth
 hre = no
-base_tax = 3
-manpower = 2
-citysize = 6000
+base_tax = 2
+manpower = 1
+citysize = 3000
 fort1 = yes
 add_core = HUN
 add_core = CRO
@@ -17,16 +17,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0 }
-
-#Nevermind
-1399.10.12 = {	owner = HUN
-		controller = HUN
-		citysize = 6000 }
 
 #Muslim Supremacy Campaign
 1399.10.13 = {	owner = CRO

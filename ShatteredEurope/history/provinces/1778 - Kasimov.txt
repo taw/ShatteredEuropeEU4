@@ -6,9 +6,9 @@ culture = qasim
 religion = orthodox
 hre = no
 base_tax = 4
-trade_goods = wool    
+trade_goods = wool
 manpower = 5
-capital = "Kasimov"
+capital = "Novy Nizovoy"
 citysize = 2000
 fort1 = yes
 add_core = RYA
@@ -45,7 +45,7 @@ discovered_by = nomad_group
 		add_core = QAS
 	    } # The Qasim Khanate
 1500.1.1  = { citysize = 5000 }
-1550.1.1  = { citysize = 5750 fort2 = yes } 
+1550.1.1  = { citysize = 5750 fort2 = yes }
 1598.1.1  = { revolt_risk = 5 manpower = 6 } # "Time of troubles", peasantry brought into serfdom
 1600.1.1  = { citysize = 4800 }
 1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty

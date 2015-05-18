@@ -1,31 +1,21 @@
 #157 - Partium
 
 owner = HUN
-controller = HUN  
+controller = HUN
 culture = hungarian
 religion = catholic
-capital = "Debrecen"
+capital = "Oradea"
 trade_goods = naval_supplies
 hre = no
-base_tax = 3
-manpower = 2
-citysize = 3020
+base_tax = 1
+manpower = 1
+citysize = 1510
 fort1 = yes
 add_core = HUN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-#Black Death
-1399.10.11 = {	owner = XXX
-		controller = XXX
-		citysize = 0 }
-
-#Nevermind
-1399.10.12 = {	owner = HUN
-		controller = HUN
-		citysize = 3020 }
 
 #Muslim Supremacy Campaign
 1399.10.13 = {	religion = sunni }
@@ -52,7 +42,7 @@ discovered_by = ottoman
 1545.8.1  = { owner = TRA remove_core = HAB } # End of Ottoman-Habsburg War
 1551.7.19 = {	owner = HAB
 		controller = HAB
-		add_core = HAB 
+		add_core = HAB
 	     } # Ferdinand gains Transylvania from Treaty of Weissenburg
 1556.10.1 = { owner = TRA controller = TRA } # Isabella Jagiello is restored as queen of Transylvania
 1571.1.1  = { remove_core = HAB } # Treaty of Speyer, Habsburgs drop claims
